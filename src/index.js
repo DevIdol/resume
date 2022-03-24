@@ -3,7 +3,7 @@ import ReactLoading from 'react-loading'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import classes from './preloader.module.css'
+import { ThemeProvider } from './Context/ThemeContext'
 
 const PreLoader = () => {
   const [done, setDone] = useState(undefined)
@@ -22,7 +22,7 @@ const PreLoader = () => {
           color={'#b60741'}
           height={100}
           width={100}
-          className={classes.preloader}
+          className="preloader"
         />
       ) : (
         <App />
@@ -33,7 +33,9 @@ const PreLoader = () => {
 
 ReactDOM.render(
   <React.StrictMode>
-    <PreLoader />
+    <ThemeProvider>
+      <PreLoader />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 )
