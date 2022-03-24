@@ -1,17 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { useState, useEffect, Fragment } from 'react'
+import ReactLoading from 'react-loading'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+import classes from './preloader.module.css'
+
+const PreLoader = () => {
+  const [done, setDone] = useState(undefined)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setDone(true)
+    }, 2000)
+  }, [])
+
+  return (
+    <Fragment>
+      {!done ? (
+        <ReactLoading
+          type={'bars'}
+          color={'#b60741'}
+          height={100}
+          width={100}
+          className={classes.preloader}
+        />
+      ) : (
+        <App />
+      )}
+    </Fragment>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PreLoader />
   </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  document.getElementById('root'),
+)
