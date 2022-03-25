@@ -1,0 +1,4 @@
+.btn {
+  cursor: pointer;
+  color: var(--clr-primary);
+}

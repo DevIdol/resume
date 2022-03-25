@@ -1,15 +1,22 @@
-import React, { Fragment, useContext } from 'react'
-import { ThemeContext } from './Context/ThemeContext'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import NavBar from './Components/NavBar/NavBar'
 
 const App = () => {
-  const [{ theme }, toggleTheme] = useContext(ThemeContext)
   return (
-    <Fragment>
-      <h1>Welcome</h1>
-      <button onClick={toggleTheme}>
-        {theme === 'dark' ? 'Dark Mode' : 'Light Mode'}
-      </button>
-    </Fragment>
+    <Router>
+      <Routes>
+        <Route path="/" element={<NavBar />}>
+          <Route index element={<h1>Home Page</h1>} />
+        </Route>
+        <Route path="portfolio" element={<NavBar />}>
+          <Route index element={<h1>PortFolio Page</h1>} />
+        </Route>
+        <Route path="blog" element={<NavBar />}>
+          <Route index element={<h1>Blog Page</h1>} />
+        </Route>
+      </Routes>
+    </Router>
   )
 }
 
