@@ -12,7 +12,6 @@
 :root {
   --transition: all 0.6s ease;
   --text-color: #fff;
-  --btn-primary: #b60741;
 }
 html {
   scroll-behavior: smooth;
@@ -20,12 +19,14 @@ html {
 .dark {
   --clr-bcg: #02040e;
   --clr-font: #fff;
-  --clr-primary: #f35287;
+  --clr-primary: #65fcdb;
+  --btn-font: #020403;
 }
 .light {
   --clr-bcg: #fff;
   --clr-font: #02040e;
-  --clr-primary: #b60741;
+  --clr-primary: #db084e;
+  --btn-font: #fff;
 }
 .preloader {
   position: absolute;

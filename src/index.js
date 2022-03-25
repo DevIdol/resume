@@ -1,13 +1,14 @@
-import React, { useState, useEffect, Fragment } from 'react'
+import React, { useState, useEffect, useContext, Fragment } from 'react'
 import ReactLoading from 'react-loading'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import { ThemeProvider } from './Context/ThemeContext'
+import { ThemeContext, ThemeProvider } from './Context/ThemeContext'
 
 const PreLoader = () => {
+  const [{ theme }] = useContext(ThemeContext)
   const [done, setDone] = useState(undefined)
-
+  const lodingColor = theme === 'dark' ? '#65fcdb' : '#db084e'
   useEffect(() => {
     setTimeout(() => {
       setDone(true)
@@ -19,7 +20,7 @@ const PreLoader = () => {
       {!done ? (
         <ReactLoading
           type={'bars'}
-          color={'#b60741'}
+          color={lodingColor}
           height={100}
           width={100}
           className="preloader"
