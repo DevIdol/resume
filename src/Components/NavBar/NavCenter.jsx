@@ -1,13 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { getNavItems } from "./NavBarItems";
+import classes from './NavCenter.module.css'
 
 const NavCenter = () => {
   const navItems = getNavItems();
   return (
-    <nav>
-      {navItems.map((data) => (
+    <nav className={classes['nav-center']}>
+      <ul className={classes['nav-items']}>{navItems.map((data) => (
         <NavLink
+         className={classes['nav-item']}
           style={({ isActive }) => {
             return {
               display: "block",
@@ -20,7 +22,7 @@ const NavCenter = () => {
         >
           {data.name}
         </NavLink>
-      ))}
+      ))}</ul>
     </nav>
   );
 };

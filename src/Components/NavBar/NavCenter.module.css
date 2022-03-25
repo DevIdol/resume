@@ -1,0 +1,39 @@
+.nav-center {
+  position: relative;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  padding: 0 20px;
+  color: var(--clr-font);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-item {
+    padding: 0 12px;
+    font-size: 14px;
+  }
+}
+.nav-center::-webkit-scrollbar {
+  width: 0;
+}
+@media screen and (max-width: 600px) {
+  .nav-item {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .nav-items {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

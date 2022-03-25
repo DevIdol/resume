@@ -1,4 +1,15 @@
-.logo{
-    width: 120px;
-    height: 40px;
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 90px;
+  }
 }

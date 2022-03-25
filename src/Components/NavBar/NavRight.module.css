@@ -1,4 +1,47 @@
-.btn {
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github,
+.mail {
+  font-size: 24px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.toggle-theme {
   cursor: pointer;
   color: var(--clr-primary);
+  font-size: 21px;
+  margin: 0px 10px;
+}
+@media screen and (max-width: 800px) {
+  .github,
+  .mail {
+    font-size: 20px;
+  }
+  .toggle-theme {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .github,
+  .mail {
+    font-size: 18px;
+  }
+  .toggle-theme {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .github,
+  .mail {
+    margin: 0 6px;
+  }
+  .toggle-theme {
+    font-size: 16px;
+  }
 }
