@@ -10,7 +10,7 @@ const NavItems = [
     name: "PORTFOLIO",
   },
   {
-    id: 1,
+    id: 3,
     link: "/blog",
     name: "BLOG",
   },
