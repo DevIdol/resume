@@ -40,6 +40,11 @@ body {
   line-height: 1.2;
   transition: var(--transition);
 }
+section,
+header {
+  width: 100%;
+  height: 100vh;
+}
 h1,
 h2,
 h3,
