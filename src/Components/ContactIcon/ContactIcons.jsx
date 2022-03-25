@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
+import {BsInstagram, BsTwitter} from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { IoMdMail } from "react-icons/io";
 export const GitHub = (props) => {
@@ -13,6 +15,34 @@ export const Mail = (props) => {
   return (
     <Fragment>
       <IoMdMail className={props.className} />
+    </Fragment>
+  );
+};
+export const Facebook = (props) => {
+  return (
+    <Fragment>
+      <FaFacebookF className={props.className} />
+    </Fragment>
+  );
+};
+export const Instagram = (props) => {
+  return (
+    <Fragment>
+      <BsInstagram className={props.className} />
+    </Fragment>
+  );
+};
+export const Twitter = (props) => {
+  return (
+    <Fragment>
+      <BsTwitter className={props.className} />
+    </Fragment>
+  );
+};
+export const Telegram = (props) => {
+  return (
+    <Fragment>
+      <FaTelegramPlane className={props.className} />
     </Fragment>
   );
 };

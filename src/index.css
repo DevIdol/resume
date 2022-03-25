@@ -19,12 +19,14 @@ html {
 .dark {
   --clr-bcg: #02040e;
   --clr-font: #fff;
+  --clr-navbar: rgba(2, 4, 14, 0.8);
   --clr-primary: #65fcdb;
   --btn-font: #020403;
 }
 .light {
   --clr-bcg: #fff;
   --clr-font: #02040e;
+  --clr-navbar: rgb(255, 255, 255, 0.8);
   --clr-primary: #db084e;
   --btn-font: #fff;
 }

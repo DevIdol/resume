@@ -1,0 +1,42 @@
+.me {
+  width: 220px;
+  height: auto;
+}
+.my-name {
+  margin-top: 10px;
+  font-weight: 300;
+}
+.my-position {
+  font-weight: 200;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.telegram {
+  font-size: 20px;
+  color: var(--clr-primary);
+  margin: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .me {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .me {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .me {
+    width: 160px;
+  }
+  .my-name {
+    font-size: 20px;
+  }
+  .my-position {
+    font-size: 16px;
+  }
+}

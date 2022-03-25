@@ -1,0 +1,22 @@
+.about-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.icon {
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0 20px;
+  color: var(--clr-primary);
+}
+.content {
+  color: var(--clr-font);
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+}
+.content:hover {
+  color: var(--clr-font);
+}
