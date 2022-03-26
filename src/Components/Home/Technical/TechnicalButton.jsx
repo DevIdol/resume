@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import Button from "../../Screens/Button";
 import BackEnd from "./BackEnd";
 import FrontEnd from "./FrontEnd";
+import OtherSkill from "./OtherSkill";
 import classes from "./TechnicalButton.module.css"
 
 const TechnicalButton = () => {
@@ -31,7 +32,7 @@ const TechnicalButton = () => {
         <Button
           className={isActive === "other" ? classes.active : ""}
           onClick={() => {
-            setSkill("Other");
+            setSkill(<OtherSkill/>);
             setIsActive("other");
           }}
         >

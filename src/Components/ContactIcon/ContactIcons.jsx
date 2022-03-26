@@ -12,7 +12,7 @@ export const GitHub = (props) => {
         target="__back"
         rel="nofollow noopener noreferrer"
       >
-        <AiOutlineGithub className={props.className} />
+        <AiOutlineGithub className={props.className} style={props.style} />
       </a>
     </Fragment>
   );
