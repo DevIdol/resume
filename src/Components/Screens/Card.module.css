@@ -1,0 +1,7 @@
+.card {
+  background: var(--clr-bcg);
+  box-shadow: rgba(128, 128, 128, 0.6) 0px 3px 8px;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  text-align: center;
+}

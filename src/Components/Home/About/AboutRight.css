@@ -1,7 +1,6 @@
 .about-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .info-title {
@@ -9,7 +8,7 @@
   text-decoration-line: underline !important;
 }
 .download {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 60px;
   width: 160px;
   height: auto;

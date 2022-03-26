@@ -1,0 +1,8 @@
+.title {
+  text-align: center;
+}
+.underline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
