@@ -20,6 +20,7 @@ html {
   --clr-bcg: #02040e;
   --clr-font: #fff;
   --clr-navbar: rgba(2, 4, 14, 0.8);
+  --clr-overlay: rgba(2, 4, 14, 0.6);
   --clr-primary: rgb(101, 252, 219);
   --clr-ani1: rgba(101, 252, 219, 0.8);
   --clr-ani2: rgba(101, 252, 219, 0.4);
@@ -30,6 +31,7 @@ html {
   --clr-bcg: #fff;
   --clr-font: #02040e;
   --clr-navbar: rgb(255, 255, 255, 0.8);
+  --clr-overlay: rgb(255, 255, 255, 0.6);
   --clr-primary: rgb(219, 8, 78);
   --clr-ani1: rgba(219, 8, 78, 0.8);
   --clr-ani2: rgba(219, 8, 78, 0.4);

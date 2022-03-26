@@ -7,7 +7,7 @@ const Underline = (props) => {
       style={{
         height: "2px",
         marginTop: "-4px",
-        margin: "0 6px",
+        margin: "0 2px",
       }}
     ></div>
   );
