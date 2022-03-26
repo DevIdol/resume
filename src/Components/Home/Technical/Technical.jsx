@@ -13,27 +13,6 @@ const Technical = () => {
         className={classes.underline}
       />
       <TechnicalButton />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </section>
   );
 };
