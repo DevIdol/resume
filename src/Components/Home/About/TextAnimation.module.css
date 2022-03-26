@@ -33,14 +33,17 @@
 .text.is-animation span:nth-of-type(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+  font-weight: 500;
 }
 .text.is-animation span:nth-of-type(5) {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
+  font-weight: 500;
 }
 .text.is-animation span:nth-of-type(6) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
+  font-weight: 500;
 }
 .text.is-animation span:nth-of-type(7) {
   -webkit-animation-delay: 0.6s;

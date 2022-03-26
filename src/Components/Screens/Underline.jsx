@@ -5,8 +5,8 @@ const Underline = (props) => {
     <div
       className={props.className}
       style={{
-        height: "4px",
-        backgroundColor: "#ffbb00",
+        height: "2px",
+        marginTop: "-4px",
         margin: "0 6px",
       }}
     ></div>

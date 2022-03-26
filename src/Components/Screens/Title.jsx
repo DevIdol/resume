@@ -5,10 +5,10 @@ import classes from "./Title.module.css";
 const Title = (props) => {
   return (
     <Fragment>
-      <h2 className={classes.title} >{props.title}</h2>
+      <h4 className={classes.title} >{props.title}</h4>
       <div className={classes.underline}>
         <Underline className={props.className} />
-        {props.star}
+        {props.icon}
         <Underline className={props.className} />
       </div>
     </Fragment>
