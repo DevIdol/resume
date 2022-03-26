@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .info-title {
   font-weight: 200;
   text-decoration-line: underline !important;
 }
 .download {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 60px;
   width: 160px;
   height: auto;
@@ -27,9 +28,6 @@
 }
 
 @media screen and (max-width: 991px) {
-  .about-right {
-    align-items: center;
-  }
   .download {
     margin-left: 0px;
   }

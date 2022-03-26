@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-import me from "../../assets/me.png";
+import me from "../../../assets/me.png";
 import {
   Facebook,
   Instagram,
   Telegram,
   Twitter,
-} from "../ContactIcon/ContactIcons";
+} from "../../ContactIcon/ContactIcons";
 const AboutLeft = () => {
   return (
     <Fragment>

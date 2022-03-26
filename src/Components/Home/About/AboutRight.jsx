@@ -1,15 +1,15 @@
 import React, { Fragment } from "react";
 import { MdLocationOn } from "react-icons/md";
 import { FaMobileAlt, FaUserGraduate } from "react-icons/fa";
-import { Mail } from "../ContactIcon/ContactIcons";
+import { Mail } from "../../ContactIcon/ContactIcons";
 import AboutInfo from "./AboutInfo";
-import CV from '../../assets/storage/Application.pdf'
+import CV from '../../../assets/storage/Application.pdf'
 import "./AboutRight.css";
 const AboutRight = () => {
   return (
     <Fragment>
       <div className="col-md-6 about-right">
-        <h3 className="info-title">Personal Infomation</h3>
+        <h4 className="info-title">Personal Infomation</h4>
         <div>
           <AboutInfo
             icon={<MdLocationOn />}

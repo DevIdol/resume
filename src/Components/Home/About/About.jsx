@@ -1,11 +1,14 @@
 import React from "react";
 import AboutLeft from "./AboutLeft";
 import "./AboutLeft.css";
+import "./About.css";
 import AboutRight from "./AboutRight";
+import TextAnimation from "./TextAnimation";
 const About = () => {
   return (
-    <section style={{ paddingTop: "120px" }}>
+    <section className="about-section">
       <div className="container">
+        <TextAnimation/>
         <div className="row">
           <AboutLeft />
           <AboutRight />
