@@ -1,5 +1,5 @@
 .me {
-  width: 220px;
+  width: 200px;
   height: auto;
 }
 .my-name {
@@ -21,17 +21,17 @@
 
 @media screen and (max-width: 991px) {
   .me {
-    width: 200px;
+    width: 180px;
   }
 }
 @media screen and (max-width: 600px) {
   .me {
-    width: 180px;
+    width: 160px;
   }
 }
 @media screen and (max-width: 420px) {
   .me {
-    width: 150px;
+    width: 140px;
   }
   .my-name {
     font-size: 20px;
