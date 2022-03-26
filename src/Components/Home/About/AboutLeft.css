@@ -1,6 +1,6 @@
 .me {
   width: 200px;
-  height: auto;
+  height: 260px;
 }
 .my-name {
   margin-top: 10px;
@@ -27,11 +27,13 @@
 @media screen and (max-width: 600px) {
   .me {
     width: 160px;
+    height: 230px;
   }
 }
 @media screen and (max-width: 420px) {
   .me {
     width: 140px;
+    height: 200px;
   }
   .my-name {
     font-size: 20px;

@@ -7,13 +7,11 @@
   font-size: 14px;
   padding: 6px 10px;
   cursor: pointer;
-  color: var(--clr-font);
-  border: 1px solid var(--clr-primary);
   margin: 0 2px;
+  font-weight: 300;
 }
 .btn button.active {
-  background: var(--clr-primary);
-  border-color: var(--clr-primary);
-  color: var(--btn-font);
-  transition: var(--transition);
+  border-top: 1px solid var(--clr-primary);
+  color: var(--clr-primary);
+  font-weight: 500;
 }
