@@ -8,7 +8,12 @@ const AboutInfo = (props) => {
         <span className="icon">{props.icon}</span>
       </div>
       <div>
-        <a href={props.href} target={props.target} className="content">
+        <a
+          href={props.href}
+          target={props.target}
+          rel={props.rel}
+          className="content"
+        >
           {props.content}
         </a>
       </div>
