@@ -11,23 +11,23 @@ const NavCenter = () => {
   const activeColor = theme === "dark" ? "#65fcdb" : "#db084e";
   return (
     <nav className={classes["nav-center"]}>
-      <ul className={classes["nav-items"]}>
-        {navItems.map((data) => (        
-            <NavLink
-              className={classes["nav-item"]}
-              style={({ isActive }) => {
-                return {
-                  fontWeight: isActive ? 800 : "",
-                  color: isActive ? activeColor : "",
-                };
-              }}
-              to={data.link}
-              key={data.id}
-            >
-              {data.name}
-            </NavLink>
-        ))}
-      </ul>
+      {/* <ul className={classes["nav-items"]}> */}
+      {navItems.map((data) => (
+        <NavLink
+          className={classes["nav-item"]}
+          style={({ isActive }) => {
+            return {
+              fontWeight: isActive ? 800 : "",
+              color: isActive ? activeColor : "",
+            };
+          }}
+          to={data.link}
+          key={data.id}
+        >
+          {data.name}
+        </NavLink>
+      ))}
+      {/* </ul> */}
     </nav>
   );
 };
