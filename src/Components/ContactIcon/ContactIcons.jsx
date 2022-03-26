@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
 import {BsInstagram, BsTwitter} from "react-icons/bs";
+import {ImMail4} from "react-icons/im"
 import { AiOutlineGithub } from "react-icons/ai";
 import { IoMdMail } from "react-icons/io";
 export const GitHub = (props) => {
@@ -14,7 +15,7 @@ export const GitHub = (props) => {
 export const Mail = (props) => {
   return (
     <Fragment>
-      <IoMdMail className={props.className} />
+      <ImMail4 className={props.className} />
     </Fragment>
   );
 };

@@ -11,7 +11,6 @@ const NavCenter = () => {
   const activeColor = theme === "dark" ? "#65fcdb" : "#db084e";
   return (
     <nav className={classes["nav-center"]}>
-      {/* <ul className={classes["nav-items"]}> */}
       {navItems.map((data) => (
         <NavLink
           className={classes["nav-item"]}
@@ -27,7 +26,6 @@ const NavCenter = () => {
           {data.name}
         </NavLink>
       ))}
-      {/* </ul> */}
     </nav>
   );
 };
