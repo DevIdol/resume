@@ -19,7 +19,11 @@
   cursor: pointer;
   color: var(--clr-primary);
   font-size: 21px;
-  padding-bottom: 4px;
+  width: 26px;
+  height: auto;
+  text-align: center;
+  padding-bottom: 3px;
+  padding-right: 0.7px;
   margin: 0px 10px;
   border-radius: 50%;
   box-shadow: 0 0 0 1px var(--clr-ani1), 0 0 0 3px var(--clr-ani2),
