@@ -7,45 +7,13 @@ import TextAnimation from "./TextAnimation";
 const About = () => {
   return (
     <section className="about-section">
-       <TextAnimation/>
+      <TextAnimation />
       <div className="container">
-       
         <div className="row">
           <AboutLeft />
           <AboutRight />
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </section>
   );
 };
