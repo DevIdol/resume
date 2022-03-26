@@ -1,13 +1,19 @@
 import { Fragment } from "react";
 import { FaFacebookF, FaTelegramPlane } from "react-icons/fa";
-import {BsInstagram, BsTwitter} from "react-icons/bs";
-import {ImMail4} from "react-icons/im"
+import { BsInstagram, BsTwitter } from "react-icons/bs";
+import { ImMail4 } from "react-icons/im";
 import { AiOutlineGithub } from "react-icons/ai";
 import { IoMdMail } from "react-icons/io";
 export const GitHub = (props) => {
   return (
     <Fragment>
-      <AiOutlineGithub className={props.className} />
+      <a
+        href="https://github.com/DevIdol"
+        target="__back"
+        rel="nofollow noopener noreferrer"
+      >
+        <AiOutlineGithub className={props.className} />
+      </a>
     </Fragment>
   );
 };

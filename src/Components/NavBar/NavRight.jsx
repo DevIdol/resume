@@ -10,9 +10,15 @@ const NavRight = () => {
     <div className={classes["nav-right"]}>
       <div>
         <GitHub className={classes.github} />
-        <Mail className={classes.mail} />
+        <a
+          href="mailto:devidol.mm@gmail.com"
+          target="__back"
+          rel="nofollow noopener noreferrer"
+        >
+          <Mail className={classes.mail} />
+        </a>
       </div>
-      <div className={classes['toggle-theme']} onClick={toggleTheme}>
+      <div className={classes["toggle-theme"]} onClick={toggleTheme}>
         {themeMode}
       </div>
     </div>
