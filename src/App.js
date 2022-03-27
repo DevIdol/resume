@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/react-portfolio" element={<NavBar />}>
+        <Route path="react-portfolio" element={<NavBar />}>
           <Route index element={<Home />} />
         </Route>
         <Route path="portfolio" element={<NavBar />}>
