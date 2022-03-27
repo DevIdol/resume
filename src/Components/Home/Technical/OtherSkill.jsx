@@ -1,5 +1,4 @@
 import React from "react";
-import { Mail } from "../../ContactIcon/ContactIcons";
 import { getOtherSkillData } from "./OtherSkillData";
 import "./OtherSkill.css";
 

@@ -1,5 +1,5 @@
 import { FaGitAlt, FaLinux } from "react-icons/fa";
-import classes from "./OtherSkillData.module.css";
+
 import {
   SiAdobexd,
   SiAdobepremierepro,
@@ -7,7 +7,7 @@ import {
   SiAiohttp,
 } from "react-icons/si";
 import { FaGlobeEurope } from "react-icons/fa";
-import { GitHub } from "../../ContactIcon/ContactIcons";
+
 
 const OtherSkillData = [
   {
