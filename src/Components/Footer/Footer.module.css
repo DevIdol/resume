@@ -12,19 +12,25 @@
   width: 140px;
   height: auto;
 }
-.text-content{
-    text-align: center;
-    padding-top: 40px;
-    color: var(--text-color);
+.text-content {
+  text-align: center;
+  padding-top: 40px;
+}
+.text-content h6,
+.text-content h5 {
+  color: var(--text-color);
 }
 .footer-contact {
   text-align: center;
   padding-top: 40px;
 }
 .copyright {
-  color: var(--text-color);
   text-align: center;
- padding: 40px 0px 100px 0px;
+  padding: 40px 0px 100px 0px;
+}
+.copyright h5,
+.copyright h6 {
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 410px) {

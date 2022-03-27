@@ -18,8 +18,8 @@ const Footer = () => {
       </div>
 
       <div className={classes.copyright}>
-        <h4>Developed By DevIdol</h4>
-        <h5>Copyright &copy; 2021 - {new Date().getFullYear()}</h5>
+        <h5>Developed By DevIdol</h5>
+        <h6>Copyright &copy; 2021 - {new Date().getFullYear()}</h6>
       </div>
     </footer>
   );
