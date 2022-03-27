@@ -21,7 +21,7 @@ export const GitHub = (props) => {
 export const Mail = (props) => {
   return (
     <Fragment>
-      <ImMail4 className={props.className} />
+      <ImMail4 size={props.size} className={props.className} />
     </Fragment>
   );
 };

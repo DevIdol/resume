@@ -4,18 +4,19 @@
   align-items: center;
 }
 .info-title {
-  font-weight: 200;
+  font-weight: 300;
+  font-size: 24px;
   text-decoration-line: underline !important;
 }
+
 .download {
   margin-top: 40px;
-  margin-left: 60px;
-  width: 160px;
-  height: auto;
   text-align: center;
 }
 .download a {
-  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px 18px;
   border: 1px solid var(--clr-primary);
   border-radius: 4px;
   color: var(--clr-font);
