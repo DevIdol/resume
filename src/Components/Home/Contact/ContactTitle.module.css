@@ -1,11 +1,11 @@
 .contact-title {
     position: absolute;
-    top: 92px;
+    top: 48px;
     left: 0px;
     right: 0px;
   }
   .underline {
-    width: 68px;
+    width: 78px;
     margin: 0 8px;
     background-color: var(--clr-primary);
   }
