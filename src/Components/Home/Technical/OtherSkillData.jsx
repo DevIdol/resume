@@ -12,7 +12,7 @@ import { GitHub } from "../../ContactIcon/ContactIcons";
 const OtherSkillData = [
   {
     id: 1,
-    title: "Other",
+    title: "Cloud & Version Control System",
     skill: [
       {
         id: 1,
@@ -29,31 +29,21 @@ const OtherSkillData = [
         icon: <FaLinux />,
         type: "Linux (Ubuntu)",
       },
-      {
-        id: 4,
-        icon: <SiAdobexd />,
-        type: "AdobeXD (UI/UX)",
-      },
-      {
-        id: 5,
-        icon: <SiAdobepremierepro />,
-        type: "Adobe Premiere Pro (Video Editing)",
-      },
     ],
   },
   {
     id: 2,
-    title: "Certificate",
+    title: "Design",
     skill: [
       {
         id: 1,
-        icon: <SiAiohttp />,
-        type: "Web Design Complete Course",
+        icon: <SiAdobexd />,
+        type: "AdobeXD (UI/UX)",
       },
       {
         id: 2,
-        icon: <FaGlobeEurope />,
-        type: "English (Intermediate)",
+        icon: <SiAdobepremierepro />,
+        type: "Adobe Premiere Pro (Video Editing)",
       },
     ],
   },
@@ -73,24 +63,19 @@ const OtherSkillData = [
       },
     ],
   },
-
   {
     id: 4,
-    title: "My Projects",
+    title: "Certificate",
     skill: [
       {
         id: 1,
-        icon: <GitHub className={classes.icon} />,
-        type: (
-          <a
-            className={classes.link}
-            href="https://github.com/DevIdol?tab=repositories"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-          >
-            https://github.com/DevIdol
-          </a>
-        ),
+        icon: <SiAiohttp />,
+        type: "Web Design Complete Course",
+      },
+      {
+        id: 2,
+        icon: <FaGlobeEurope />,
+        type: "English (Intermediate)",
       },
     ],
   },

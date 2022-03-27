@@ -48,7 +48,7 @@ const TechnicalButton = () => {
             setIsActive("other");
           }}
         >
-          Other Skills
+          Other
         </Button>
       </div>
       <div>{skill}</div>
