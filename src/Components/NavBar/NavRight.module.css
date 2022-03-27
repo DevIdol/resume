@@ -49,13 +49,3 @@
       0 0 0 4px var(--clr-ani3);
   }
 }
-
-@media screen and (max-width: 800px) {
-  .github,
-  .mail {
-    font-size: 20px;
-  }
-  .toggle-theme {
-    font-size: 18px;
-  }
-}

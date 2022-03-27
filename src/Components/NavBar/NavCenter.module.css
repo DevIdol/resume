@@ -19,13 +19,8 @@
   color: var(--clr-font);
 }
 
-@media screen and (max-width: 600px) {
-  .nav-item {
-    padding: 0 10px;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 560px) {
   .nav-center {
     position: absolute;
     bottom: 6px;
