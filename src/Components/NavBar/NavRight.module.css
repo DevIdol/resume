@@ -6,7 +6,7 @@
 
 .github,
 .mail {
-  font-size: 24px;
+  font-size: 26px;
   margin: 0px 10px;
   cursor: pointer;
   border-radius: 50%;
@@ -18,12 +18,12 @@
 .toggle-theme {
   cursor: pointer;
   color: var(--clr-primary);
-  font-size: 21px;
-  width: 26px;
+  font-size: 22px;
+  width: 28px;
   height: auto;
   text-align: center;
-  padding-bottom: 3px;
-  padding-right: 0.7px;
+  padding-bottom: 2px;
+  padding-right: 0.6px;
   margin: 0px 10px;
   border-radius: 50%;
   box-shadow: 0 0 0 1px var(--clr-ani1), 0 0 0 3px var(--clr-ani2),
@@ -47,5 +47,11 @@
   100% {
     box-shadow: 0 0 0 0px var(--clr-ani1), 0 0 0 2px var(--clr-ani2),
       0 0 0 4px var(--clr-ani3);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .github, .mail, .toggle-theme{
+    margin-top: -34px;
   }
 }

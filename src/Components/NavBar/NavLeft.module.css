@@ -3,4 +3,8 @@
   height: auto;
 }
 
-
+@media screen and (max-width: 560px) {
+  .logo {
+    margin-top: -34px;
+  }
+}
