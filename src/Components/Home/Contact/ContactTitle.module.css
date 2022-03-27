@@ -1,0 +1,16 @@
+.contact-title {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+  }
+  .underline {
+    width: 68px;
+    margin: 0 8px;
+    background-color: var(--clr-primary);
+  }
+  .icon {
+    font-size: 20px;
+    color: var(--clr-primary);
+    margin-top: -8px;
+  }
