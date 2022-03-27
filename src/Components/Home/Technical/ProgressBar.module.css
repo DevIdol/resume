@@ -1,11 +1,11 @@
 .skill {
   font-size: 14px;
   font-weight: 400;
-  margin: 30px 30px 0px 30px;
+  margin: 26px 20px 4px 20px;
 }
 .name {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left;
   margin-left: 10px;
 }
@@ -22,7 +22,6 @@
 }
 
 .progress-text {
-  padding: 10px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
 }

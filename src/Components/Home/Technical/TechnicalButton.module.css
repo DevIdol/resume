@@ -4,10 +4,11 @@
 }
 
 .btn .button {
-  font-size: 14px;
+  font-size: 16px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 4px 40px;
+  font-weight: 400;
 }
 .btn .button:hover {
   background: none;
