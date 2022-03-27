@@ -3,15 +3,18 @@
   margin-top: 10px;
 }
 
-.btn button {
+.btn .button {
   font-size: 14px;
-  padding: 6px 10px;
-  cursor: pointer;
-  margin: 0 2px;
-  font-weight: 300;
+  border: none;
+  border-radius: 4px;
 }
-.btn button.active {
-  border-top: 1px solid var(--clr-primary);
+.btn .button:hover {
+  background: none;
+  color: var(--clr-primary);
+  transition: var(--transition);
+}
+.btn .button.active {
+  border-bottom: 1px solid var(--clr-primary);
   color: var(--clr-primary);
   font-weight: 500;
 }
