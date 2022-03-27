@@ -1,15 +1,16 @@
 .contact-form {
   position: absolute;
-  top: 104px;
+  top: 180px;
   left: 0%;
   right: 0%;
 }
+
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 .textarea {
   width: 50%;

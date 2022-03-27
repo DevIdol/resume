@@ -22,9 +22,9 @@ html {
   --clr-navbar: rgba(2, 4, 14, 0.8);
   --clr-overlay: rgba(2, 4, 14, 0.6);
   --clr-primary: rgb(101, 252, 219);
-  --clr-ani1: rgba(101, 252, 219, 0.8);
-  --clr-ani2: rgba(101, 252, 219, 0.4);
-  --clr-ani3: rgba(101, 252, 219, 0.2);
+  --clr-ani1: rgba(101, 252, 219, 0.4);
+  --clr-ani2: rgba(101, 252, 219, 0.3);
+  --clr-ani3: rgba(101, 252, 219, 0.1);
   --btn-font: #020403;
 }
 .light {
@@ -33,9 +33,9 @@ html {
   --clr-navbar: rgb(255, 255, 255, 0.8);
   --clr-overlay: rgb(255, 255, 255, 0.6);
   --clr-primary: rgb(219, 8, 78);
-  --clr-ani1: rgba(219, 8, 78, 0.8);
-  --clr-ani2: rgba(219, 8, 78, 0.4);
-  --clr-ani3: rgba(219, 8, 78, 0.2);
+  --clr-ani1: rgba(219, 8, 78, 0.4);
+  --clr-ani2: rgba(219, 8, 78, 0.3);
+  --clr-ani3: rgba(219, 8, 78, 0.1);
   --btn-font: #fff;
 }
 .preloader {
