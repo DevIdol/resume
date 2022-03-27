@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
-import { FaMoon, FaSun } from "react-icons/fa";
+import {BsMoonStarsFill} from "react-icons/bs"
+import {RiSunFill} from "react-icons/ri"
 import { ThemeContext } from "../../Context/ThemeContext";
 import { GitHub, Mail } from "../ContactIcon/ContactIcons";
 import classes from "./NavRight.module.css";
 const NavRight = () => {
   const [{ theme }, toggleTheme] = useContext(ThemeContext);
-  const themeMode = theme === "dark" ? <FaMoon /> : <FaSun />;
+  const themeMode = theme === "dark" ? <BsMoonStarsFill /> : <RiSunFill />;
   return (
     <div className={classes["nav-right"]}>
       <div>
