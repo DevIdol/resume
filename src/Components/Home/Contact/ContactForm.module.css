@@ -1,8 +1,8 @@
 .contact-form {
   position: absolute;
   top: 104px;
-  left: 32%;
-  right: 32%;
+  left: 0%;
+  right: 0%;
 }
 .form {
   display: flex;
@@ -12,12 +12,33 @@
   gap: 1.5rem;
 }
 .textarea {
-  width: 100%;
+  width: 50%;
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: transparent;
   border: 1px solid var(--clr-primary);
   color: var(--clr-font);
   font-weight: 400;
-  resize:vertical;
+  resize: vertical;
+}
+.input-form{
+    width: 50%;
+}
+
+@media screen and (max-width: 840px) {
+  .textarea, .input-form {
+    width: 64%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textarea, .input-form {
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .textarea, .input-form {
+    width: 96%;
+  }
 }
