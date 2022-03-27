@@ -10,14 +10,7 @@
   font-weight: 200;
 }
 
-.facebook,
-.instagram,
-.twitter,
-.telegram {
-  font-size: 20px;
-  color: var(--clr-primary);
-  margin: 10px;
-}
+
 
 @media screen and (max-width: 991px) {
   .me {
