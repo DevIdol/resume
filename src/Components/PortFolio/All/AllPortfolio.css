@@ -1,5 +1,5 @@
 .items {
-  height: 280px;
+  height: 300px;
   padding-bottom: 30px;
 }
 .portfolio-item {
@@ -13,7 +13,7 @@
   position: absolute;
   border-radius: 10px 10px 20px 20px;
   width: 100%;
-  height: 70%;
+  height: 78%;
   top: 0;
   left: 0;
   padding: 2px;
@@ -22,7 +22,7 @@
 .language {
   position: absolute;
   left: 2px;
-  bottom: 92px;
+  bottom: 70px;
   border-radius: 0px 10px 10px 0px;
   padding: 6px 6px;
   background: rgba(0, 0, 0, 0.6);
@@ -37,13 +37,13 @@
   position: absolute;
   left: 0px;
   right: 0px;
-  bottom: 34px;
+  bottom: 26px;
 }
 .code {
   color: var(--clr-primary);
   font-size: 24px;
   position: absolute;
-  bottom: 12px;
+  bottom: 10px;
   left: 20px;
 }
 
@@ -52,7 +52,7 @@
   font-size: 24px;
   position: absolute;
   right: 20px;
-  bottom: 12px;
+  bottom: 10px;
 }
 .code:hover,
 .down:hover {
