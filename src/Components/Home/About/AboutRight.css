@@ -4,7 +4,7 @@
   align-items: center;
 }
 .info-title {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 24px;
   text-decoration-line: underline !important;
 }
@@ -34,6 +34,6 @@
 }
 @media screen and (max-width: 767px) {
   .about-right {
-    padding-top: 30px;
+    padding-top: 10px;
   }
 }
