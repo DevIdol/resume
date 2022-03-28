@@ -19,6 +19,9 @@
 .input-form{
     width: 50%;
 }
+.button{
+  margin-top: 10px;
+}
 
 @media screen and (max-width: 840px) {
   .textarea, .input-form {

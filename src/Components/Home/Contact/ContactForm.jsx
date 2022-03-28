@@ -63,7 +63,7 @@ const ContactForm = () => {
           rows="6"
           required
         />
-        <Button type="submit">Send Message</Button>
+        <Button className={classes.button} type="submit">Send Message</Button>
       </form>
     </div>
   );
