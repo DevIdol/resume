@@ -2,6 +2,7 @@ import React from "react";
 import SocialMedia from "../Home/About/SocialMedia";
 import logo from "../../assets/light.png";
 import classes from "./Footer.module.css";
+import BackToTop from "../BackToTop/BackToTop";
 
 const Footer = () => {
   return (
@@ -28,6 +29,9 @@ const Footer = () => {
           </a>
         </h5>
         <h6>Copyright &copy; 2021 - {new Date().getFullYear()}</h6>
+      </div>
+      <div className={classes["back-top"]}>
+        <BackToTop/>
       </div>
     </footer>
   );

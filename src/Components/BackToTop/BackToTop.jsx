@@ -1,12 +1,9 @@
 import React from "react";
-
+import classes from "./BackToTop.module.css"
 const BackToTop = () => {
   return (
-    <div>
-      <a href="#" className={classes["to-top"]}>
-        Back to top
-      </a>
-    </div>
+    <a href="#" className={classes["to-top"]}>
+    </a>
   );
 };
 

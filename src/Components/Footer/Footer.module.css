@@ -28,15 +28,20 @@
   text-align: center;
   padding-bottom: 30px;
 }
-.copyright{
-    text-align: center;
-    padding-bottom: 120px;
+.copyright {
+  text-align: center;
 }
-.copyright h5 a{
-    font-size: 20px;
-    cursor: pointer;
-    color: var(--text-color);
+.copyright h5 a {
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--text-color);
 }
+.back-top {
+  margin-right: 20px;
+  text-align: right;
+  padding-bottom: 120px;
+}
+
 @media screen and (max-width: 640px) {
   .footer-content h5 {
     font-size: 18px;
