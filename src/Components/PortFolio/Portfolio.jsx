@@ -3,9 +3,10 @@ import { RiMedalFill } from "react-icons/ri";
 import Title from "../Screens/Title";
 import classes from "./Portfolio.module.css";
 import PortfolioButton from "./PortfolioButton";
+import Footer from "../Footer/Footer";
 const Portfolio = () => {
   return (
-    <section className={classes["portfolio-section"]}>
+    <section id="myportfo" className={classes["portfolio-section"]}>
       <div className={classes.title}>
         <Title
           title="My Projects"
@@ -19,22 +20,8 @@ const Portfolio = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
+      <Footer href="#myportfo" />
     </section>
   );
 };
