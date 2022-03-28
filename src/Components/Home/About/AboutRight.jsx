@@ -3,7 +3,7 @@ import { MdLocationOn } from "react-icons/md";
 import { FaMobileAlt, FaUserGraduate } from "react-icons/fa";
 import { Mail } from "../../ContactIcon/ContactIcons";
 import AboutInfo from "./AboutInfo";
-import CV from "../../../assets/storage/Application.pdf";
+import resume from "../../../assets/storage/Resume.pdf";
 import "./AboutRight.css";
 const AboutRight = () => {
   return (
@@ -42,8 +42,8 @@ const AboutRight = () => {
           />
         </div>
         <div className="download">
-          <a href={CV} download>
-            Download CV
+          <a href={resume} download>
+            Get My Resume
           </a>
         </div>
       </div>
