@@ -1,6 +1,5 @@
 .card {
-  background: var(--clr-bcg);
-  box-shadow: rgba(128, 128, 128, 0.6) 0px 3px 8px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   border-radius: 10px;
   border: 1px solid #808080;
   text-align: center;

@@ -1,0 +1,14 @@
+.portfolio-section {
+  padding-top: 90px;
+}
+.title{
+    padding: 20px 0px;
+}
+.icon{
+    font-size: 24px;
+    color: var(--clr-primary);
+}
+.underline{
+    width: 80px;
+    background: var(--clr-primary);
+}

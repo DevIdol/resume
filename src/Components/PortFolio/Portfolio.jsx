@@ -1,9 +1,19 @@
 import React from "react";
-
+import { RiMedalFill } from "react-icons/ri";
+import AllPortfolio from "./All/AllPortfolio";
+import Title from "../Screens/Title";
+import classes from "./Portfolio.module.css";
 const Portfolio = () => {
   return (
-    <div style={{ paddingTop: "100px", textAlign: "center" }}>
-      <h1>To Be Continued PortFolio Page</h1>
+    <section className={classes["portfolio-section"]}>
+      <div className={classes.title}>
+        <Title
+          title="My Projects"
+          icon={<RiMedalFill className={classes.icon} />}
+          className={classes.underline}
+        />
+      </div>
+      <AllPortfolio />
 
       <br />
       <br />
@@ -25,7 +35,7 @@ const Portfolio = () => {
       <br />
       <br />
       <br />
-    </div>
+    </section>
   );
 };
 
