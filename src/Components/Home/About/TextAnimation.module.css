@@ -1,4 +1,5 @@
 .content {
+  letter-spacing: 6px;
   text-align: center;
   font-size: 30px;
   font-weight: 500;
@@ -51,25 +52,25 @@
   animation-delay: 0.6s;
 }
 @-webkit-keyframes wave-text {
-    00% {
-      transform: translateY(0em);
-    }
-    60% {
-      transform: translateY(-0.6em);
-    }
-    100% {
-      transform: translateY(0em);
-    }
+  00% {
+    transform: translateY(0em);
   }
-  
-  @keyframes wave-text {
-    00% {
-      transform: translateY(0em);
-    }
-    60% {
-      transform: translateY(-0.6em);
-    }
-    100% {
-      transform: translateY(0em);
-    }
+  60% {
+    transform: translateY(-0.6em);
   }
+  100% {
+    transform: translateY(0em);
+  }
+}
+
+@keyframes wave-text {
+  00% {
+    transform: translateY(0em);
+  }
+  60% {
+    transform: translateY(-0.6em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./BackToTop.module.css"
-const BackToTop = () => {
+const BackToTop = ({href}) => {
   return (
-    <a href="#" className={classes["to-top"]}>
+    <a href={href} className={classes["to-top"]}>
     </a>
   );
 };

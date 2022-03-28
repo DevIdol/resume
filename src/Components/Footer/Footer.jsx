@@ -4,7 +4,7 @@ import logo from "../../assets/light.png";
 import classes from "./Footer.module.css";
 import BackToTop from "../BackToTop/BackToTop";
 
-const Footer = () => {
+const Footer = ({href}) => {
   return (
     <footer className={classes.footer}>
       <div className={classes.logo}>
@@ -31,7 +31,7 @@ const Footer = () => {
         <h6>Copyright &copy; 2021 - {new Date().getFullYear()}</h6>
       </div>
       <div className={classes["back-top"]}>
-        <BackToTop/>
+        <BackToTop href={href}/>
       </div>
     </footer>
   );
