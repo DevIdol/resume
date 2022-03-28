@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Blog from './Components/Blog/Blog'
+import Footer from './Components/Footer/Footer'
 import Home from './Components/Home/Home'
 import NavBar from './Components/NavBar/NavBar'
 import Portfolio from './Components/PortFolio/Portfolio'
 
 const App = () => {
   return (
-    <Router>
+   <Fragment>
+      <Router>
       <Routes>
         <Route path="/react-portfolio" element={<NavBar />}>
           <Route index element={<Home />} />
@@ -20,6 +22,8 @@ const App = () => {
         </Route>
       </Routes>
     </Router>
+    <Footer/>
+   </Fragment>
   )
 }
 
