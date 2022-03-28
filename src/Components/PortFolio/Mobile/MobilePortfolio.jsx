@@ -1,17 +1,22 @@
 import React from "react";
-import { getPortfolioData } from "../PortfolioData";
-import Card from "../../Screens/Card";
-import "./AllPortfolio.css";
 import { FaCode } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
-const AllPortfolio = () => {
-  const porfoliodata = getPortfolioData();
+import { getPortfolioData } from "../PortfolioData";
+import Card from "../../Screens/Card";
+import "../All/AllPortfolio.css";
+const MobilePortfolio = () => {
   const code = <FaCode />;
   const down = <MdDownload />;
+  const portfolio = getPortfolioData();
+
+  const mobileportfo = portfolio.filter((data) => {
+    return data.type === "mobile";
+  });
+
   return (
     <div className="container">
       <div className="row">
-        {porfoliodata.map((data) => {
+        {mobileportfo.map((data) => {
           return (
             <div key={data.id} className="col-md-4 items">
               <Card className="portfolio-item">
@@ -42,4 +47,4 @@ const AllPortfolio = () => {
   );
 };
 
-export default AllPortfolio;
+export default MobilePortfolio;

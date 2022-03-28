@@ -1,7 +1,9 @@
 import React, { Fragment, useState } from "react";
 import Button from "../Screens/Button";
 import AllPortfolio from "./All/AllPortfolio";
+import MobilePortfolio from "./Mobile/MobilePortfolio";
 import classes from "./PortfolioButton.module.css";
+import WebPortfolio from "./Web/WebPortfolio";
 
 const PortfolioButton = () => {
   const [porfolio, setPortfolio] = useState(<AllPortfolio />);
@@ -29,7 +31,7 @@ const PortfolioButton = () => {
               : classes.button
           }
           onClick={() => {
-            setPortfolio("Mobile");
+            setPortfolio(<MobilePortfolio />);
             setIsActive("mobile");
           }}
         >
@@ -42,7 +44,7 @@ const PortfolioButton = () => {
               : classes.button
           }
           onClick={() => {
-            setPortfolio("Web");
+            setPortfolio(<WebPortfolio />);
             setIsActive("web");
           }}
         >

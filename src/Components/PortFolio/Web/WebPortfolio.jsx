@@ -1,17 +1,21 @@
 import React from "react";
-import { getPortfolioData } from "../PortfolioData";
-import Card from "../../Screens/Card";
-import "./AllPortfolio.css";
 import { FaCode } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
-const AllPortfolio = () => {
-  const porfoliodata = getPortfolioData();
+import { getPortfolioData } from "../PortfolioData";
+import Card from "../../Screens/Card";
+import "../All/AllPortfolio.css";
+const WebPortfolio = () => {
   const code = <FaCode />;
   const down = <MdDownload />;
+  const portfolio = getPortfolioData();
+
+  const webportfo = portfolio.filter((data) => {
+    return data.type === "web";
+  });
   return (
     <div className="container">
       <div className="row">
-        {porfoliodata.map((data) => {
+        {webportfo.map((data) => {
           return (
             <div key={data.id} className="col-md-4 items">
               <Card className="portfolio-item">
@@ -42,4 +46,4 @@ const AllPortfolio = () => {
   );
 };
 
-export default AllPortfolio;
+export default WebPortfolio;
