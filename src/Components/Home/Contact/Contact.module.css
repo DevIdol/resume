@@ -14,6 +14,6 @@
   position: absolute;
   background-color: var(--clr-overlay);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   top: 0px;
 }
