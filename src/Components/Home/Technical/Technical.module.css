@@ -1,5 +1,9 @@
 .technical-section {
-  padding-top: 80px;
+  margin-top: 30px;
+}
+.technical-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .underline {
   width: 104px;

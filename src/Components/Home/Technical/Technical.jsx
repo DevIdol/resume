@@ -7,11 +7,13 @@ import TechnicalButton from "./TechnicalButton";
 const Technical = () => {
   return (
     <section className={classes["technical-section"]}>
-      <Title
+     <div className={classes["technical-title"]}>
+     <Title
         title="TECHNICAL SKILLS"
         icon={<RiMedalFill className={classes.icon} />}
         className={classes.underline}
       />
+     </div>
       <TechnicalButton />
     </section>
   );
