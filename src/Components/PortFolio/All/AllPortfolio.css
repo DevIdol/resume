@@ -55,7 +55,7 @@
   bottom: 12px;
 }
 .code:hover,
-.download:hover {
+.down:hover {
   color: var(--clr-primary);
 }
 @media screen and (max-width: 1199px) {
