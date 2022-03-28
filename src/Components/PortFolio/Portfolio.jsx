@@ -1,8 +1,8 @@
 import React from "react";
 import { RiMedalFill } from "react-icons/ri";
-import AllPortfolio from "./All/AllPortfolio";
 import Title from "../Screens/Title";
 import classes from "./Portfolio.module.css";
+import PortfolioButton from "./PortfolioButton";
 const Portfolio = () => {
   return (
     <section className={classes["portfolio-section"]}>
@@ -13,7 +13,7 @@ const Portfolio = () => {
           className={classes.underline}
         />
       </div>
-      <AllPortfolio />
+      <PortfolioButton />
 
       <br />
       <br />

@@ -1,5 +1,5 @@
-import { FaCode, FaCss3Alt, FaBootstrap, FaLaravel } from "react-icons/fa";
-import { MdDownload } from "react-icons/md";
+import { FaCss3Alt, FaBootstrap, FaLaravel } from "react-icons/fa";
+
 import { ImHtmlFive } from "react-icons/im";
 import { RiFlutterFill } from "react-icons/ri";
 import { DiJavascript1, DiJqueryLogo } from "react-icons/di";
@@ -19,8 +19,6 @@ const language = [
   <DiJavascript1 />,
   <DiJqueryLogo />,
 ];
-const code = <FaCode />;
-const down = <MdDownload />;
 
 const PortfolioData = [
   {
@@ -32,9 +30,7 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [<FaLaravel />],
-      code: code,
       link: "https://github.com/DevIdol/sample_laravel_ecommerce",
-      down: down,
       download:
         "https://github.com/DevIdol/sample_laravel_ecommerce/archive/refs/heads/main.zip",
     },
@@ -48,9 +44,7 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [...language, <SiPhp />],
-      code: code,
       link: "https://github.com/DevIdol/php_tutorials/tree/main/cms",
-      down: down,
       download:
         "https://github.com/DevIdol/php_tutorials/archive/refs/heads/main.zip",
     },
@@ -64,9 +58,7 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [...language],
-      code: code,
       link: "https://github.com/DevIdol/portfo",
-      down: down,
       download: "https://github.com/DevIdol/portfo/archive/refs/heads/main.zip",
     },
   },
@@ -79,9 +71,7 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [...language],
-      code: code,
       link: "https://github.com/DevIdol/onlineshop-webDesign",
-      down: down,
       download:
         "https://github.com/DevIdol/onlineshop-webDesign/archive/refs/heads/main.zip",
     },
@@ -95,9 +85,7 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [<FaLaravel />],
-      code: code,
       link: "https://github.com/DevIdol/sample_portfolio_website_with_laravel",
-      down: down,
       download:
         "https://github.com/DevIdol/sample_portfolio_website_with_laravel/archive/refs/heads/main.zip",
     },
@@ -111,9 +99,7 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [<RiFlutterFill />, <SiFirebase />],
-      code: code,
       link: "https://github.com/DevIdol/culibrary_mobileApp_sourceCode",
-      down: down,
       download: apk,
     },
   },
