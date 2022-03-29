@@ -35,26 +35,13 @@ const PortfolioData = [
         "https://github.com/DevIdol/sample_laravel_ecommerce/archive/refs/heads/main.zip",
     },
   },
+  
   {
     id: 2,
     type: "web",
     items: {
-      img: four,
-      title: "CMS",
-      describtion:
-        "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
-      language: [...language, <SiPhp />],
-      link: "https://github.com/DevIdol/php_tutorials/tree/main/cms",
-      download:
-        "https://github.com/DevIdol/php_tutorials/archive/refs/heads/main.zip",
-    },
-  },
-  {
-    id: 3,
-    type: "web",
-    items: {
       img: three,
-      title: "Blog WebDesign",
+      title: "Resume & Blog WebDesign",
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [...language],
@@ -63,7 +50,7 @@ const PortfolioData = [
     },
   },
   {
-    id: 4,
+    id: 3,
     type: "web",
     items: {
       img: one,
@@ -77,7 +64,7 @@ const PortfolioData = [
     },
   },
   {
-    id: 5,
+    id: 4,
     type: "web",
     items: {
       img: two,
@@ -88,6 +75,20 @@ const PortfolioData = [
       link: "https://github.com/DevIdol/sample_portfolio_website_with_laravel",
       download:
         "https://github.com/DevIdol/sample_portfolio_website_with_laravel/archive/refs/heads/main.zip",
+    },
+  },
+  {
+    id: 5,
+    type: "web",
+    items: {
+      img: four,
+      title: "CMS",
+      describtion:
+        "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
+      language: [...language, <SiPhp />],
+      link: "https://github.com/DevIdol/php_tutorials/tree/main/cms",
+      download:
+        "https://github.com/DevIdol/php_tutorials/archive/refs/heads/main.zip",
     },
   },
   {

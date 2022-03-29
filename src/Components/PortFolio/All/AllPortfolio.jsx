@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { getPortfolioData } from "../PortfolioData";
 import Card from "../../Screens/Card";
 import "./AllPortfolio.css";
 import { FaCode } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
+import Button from "../../Screens/Button";
+const code = <FaCode />;
+const down = <MdDownload />;
 const AllPortfolio = () => {
   const porfoliodata = getPortfolioData();
-  const code = <FaCode />;
-  const down = <MdDownload />;
+  const [loadmore, setLoadmore] = useState(3);
+  const sliceporfo = porfoliodata.slice(0, loadmore);
+  const onLoadmore = () => {
+    setLoadmore((preValue) => preValue + 3);
+  };
+  const isLoadmore = porfoliodata.length > loadmore;
   return (
-    <div className="container">
+    <div className="container text-center">
       <div className="row">
-        {porfoliodata.map((data) => {
+        {sliceporfo.map((data) => {
           return (
             <div key={data.id} className="col-md-4 items">
               <Card className="portfolio-item">
@@ -38,6 +45,11 @@ const AllPortfolio = () => {
           );
         })}
       </div>
+      {isLoadmore && (
+        <Button type="button" onClick={onLoadmore} className="load-btn">
+          Load More
+        </Button>
+      )}
     </div>
   );
 };

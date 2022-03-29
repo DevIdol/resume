@@ -1,22 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaCode } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { getPortfolioData } from "../PortfolioData";
 import Card from "../../Screens/Card";
+import Button from "../../Screens/Button";
 import "../All/AllPortfolio.css";
+const code = <FaCode />;
+const down = <MdDownload />;
 const MobilePortfolio = () => {
-  const code = <FaCode />;
-  const down = <MdDownload />;
   const portfolio = getPortfolioData();
+  const [loadmore, setLoadmore] = useState(3);
 
   const mobileportfo = portfolio.filter((data) => {
     return data.type === "mobile";
   });
-
+  const sliceporfo = mobileportfo.slice(0, loadmore);
+  const onLoadmore = () => {
+    setLoadmore((preValue) => preValue + 3);
+  };
+  const isLoadmore = mobileportfo.length > loadmore;
+  console.log(isLoadmore);
   return (
-    <div className="container">
+    <div className="container text-center">
       <div className="row">
-        {mobileportfo.map((data) => {
+        {sliceporfo.map((data) => {
           return (
             <div key={data.id} className="col-md-4 items">
               <Card className="portfolio-item">
@@ -43,6 +50,11 @@ const MobilePortfolio = () => {
           );
         })}
       </div>
+      {isLoadmore && (
+        <Button type="button" onClick={onLoadmore} className="load-btn">
+          Load More
+        </Button>
+      )}
     </div>
   );
 };

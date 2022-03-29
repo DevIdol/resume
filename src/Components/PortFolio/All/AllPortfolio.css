@@ -43,7 +43,7 @@
   color: var(--clr-primary);
   font-size: 24px;
   position: absolute;
-  bottom: 10px;
+  bottom: 8px;
   left: 20px;
 }
 
@@ -52,11 +52,14 @@
   font-size: 24px;
   position: absolute;
   right: 20px;
-  bottom: 10px;
+  bottom: 8px;
 }
 .code:hover,
 .down:hover {
   color: var(--clr-primary);
+}
+.load-btn{
+  margin-top: 20px;
 }
 @media screen and (max-width: 1199px) {
   .portfolio-item {

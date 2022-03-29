@@ -30,7 +30,7 @@ const FrontEndData = [
   {
     id: 5,
     name: "ReactJS",
-    progress: 45,
+    progress: 50,
     color: "#000",
     bgcolor: "#61dbfb",
   },

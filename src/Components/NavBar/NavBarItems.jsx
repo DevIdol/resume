@@ -6,8 +6,8 @@ const NavItems = [
   },
   {
     id: 2,
-    link: "/portfolio",
-    name: "PORTFOLIO",
+    link: "/project",
+    name: "PROJECT",
   },
   {
     id: 3,

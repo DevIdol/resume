@@ -11,7 +11,7 @@ const Routers = () => {
         <Route path="/react-portfolio" element={<NavBar />}>
           <Route index element={<Home />} />
         </Route>
-        <Route path="portfolio" element={<NavBar />}>
+        <Route path="project" element={<NavBar />}>
           <Route index element={<Portfolio />} />
         </Route>
         <Route path="blog" element={<NavBar />}>
