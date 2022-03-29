@@ -41,7 +41,7 @@ const PortfolioData = [
     type: "web",
     items: {
       img: three,
-      title: "Resume & Blog WebDesign",
+      title: "Resume & Blog",
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [...language],

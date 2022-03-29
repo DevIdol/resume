@@ -15,12 +15,6 @@ const Portfolio = () => {
         />
       </div>
       <PortfolioButton />
-
-      <br />
-      <br />
-      <br />
-      <br />
-
       <Footer href="#myportfo" />
     </section>
   );
