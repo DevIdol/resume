@@ -9,7 +9,7 @@ const Technical = () => {
     <section className={classes["technical-section"]}>
      <div className={classes["technical-title"]}>
      <Title
-        title="TECHNICAL SKILLS"
+        title="MY SKILLS"
         icon={<RiMedalFill className={classes.icon} />}
         className={classes.underline}
       />

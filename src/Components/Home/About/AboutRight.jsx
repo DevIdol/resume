@@ -9,7 +9,7 @@ const AboutRight = () => {
   return (
     <Fragment>
       <div className="col-md-6 about-right">
-        <h4 className="info-title">Personal Infomation</h4>
+        <h4 className="info-title">Personal Information</h4>
         <div>
           <AboutInfo
             icon={<MdLocationOn />}
