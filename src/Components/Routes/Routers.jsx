@@ -17,6 +17,14 @@ const Routers = () => {
         <Route path="blog" element={<NavBar />}>
           <Route index element={<Blog />} />
         </Route>
+        <Route
+          path="*"
+          element={
+            <section style={{ textAlign: "center", paddingTop: "120px" }}>
+              <h1>404 Not Found!</h1>
+            </section>
+          }
+        />
       </Routes>
     </Router>
   );
