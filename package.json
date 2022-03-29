@@ -1,6 +1,6 @@
 {
-  "homepage": "https://DevIdol.github.io/react-portfolio",
-  "name": "react-portfolio",
+  "homepage": "https://DevIdol.github.io/resume",
+  "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

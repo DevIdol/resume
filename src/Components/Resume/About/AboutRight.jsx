@@ -43,7 +43,7 @@ const AboutRight = () => {
         </div>
         <div className="download">
           <a href={resume} download>
-            Get My Resume
+            Get My CV
           </a>
         </div>
       </div>

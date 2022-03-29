@@ -1,8 +1,8 @@
 const NavItems = [
   {
     id: 1,
-    link: "/react-portfolio",
-    name: "HOME",
+    link: "/resume",
+    name: "RESUME",
   },
   {
     id: 2,

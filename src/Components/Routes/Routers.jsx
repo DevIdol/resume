@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Blog from "../Blog/Blog";
-import Home from "../Home/Home";
+import Home from "../Resume/Home";
 import NavBar from "../NavBar/NavBar";
 import Portfolio from "../PortFolio/Portfolio";
 const Routers = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/react-portfolio" element={<NavBar />}>
+        <Route path="resume" element={<NavBar />}>
           <Route index element={<Home />} />
         </Route>
         <Route path="project" element={<NavBar />}>

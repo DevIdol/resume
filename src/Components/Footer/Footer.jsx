@@ -1,5 +1,5 @@
 import React from "react";
-import SocialMedia from "../Home/About/SocialMedia";
+import SocialMedia from "../Resume/About/SocialMedia";
 import logo from "../../assets/light.png";
 import classes from "./Footer.module.css";
 import BackToTop from "../BackToTop/BackToTop";
