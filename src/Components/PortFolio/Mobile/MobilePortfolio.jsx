@@ -19,7 +19,6 @@ const MobilePortfolio = () => {
     setLoadmore((preValue) => preValue + 3);
   };
   const isLoadmore = mobileportfo.length > loadmore;
-  console.log(isLoadmore);
   return (
     <div className="container text-center">
       <div className="row">
