@@ -1,14 +1,13 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { getBlogs } from "../BlogData";
 import BlogListTitle from "./BlogListTitle";
-import Button from "../../Screens/Button"
+import Button from "../../Screens/Button";
 import "./BlogList.css";
 const BlogList = () => {
   const blogs = getBlogs();
   let [searchParams, setSearchParams] = useSearchParams();
   const [loadmore, setLoadmore] = useState(3);
-
 
   const blog = blogs.filter((data) => {
     let filter = searchParams.get("filter");
@@ -28,7 +27,7 @@ const BlogList = () => {
   return (
     <div className="container">
       <BlogListTitle
-      onClear={clearSearch}
+        onClear={clearSearch}
         value={searchParams.get("filter") || ""}
         onChange={(event) => {
           let filter = event.target.value;
@@ -41,7 +40,16 @@ const BlogList = () => {
       />
       <div className="row">
         {!sliceblogs.length ? (
-          <h1>No Result</h1>
+          <h1
+            style={{
+              paddingTop: "120px",
+              textAlign: "center",
+              width: "100%",
+              height: "60vh",
+            }}
+          >
+            No Result!
+          </h1>
         ) : (
           sliceblogs.map((data) => {
             return (
@@ -62,11 +70,14 @@ const BlogList = () => {
           })
         )}
       </div>
-      {isLoadmore && (
-        <Button type="button" onClick={onLoadmore} className="load-btn">
-          Load More
-        </Button>
-      )}
+      {isLoadmore &&
+        (!sliceblogs.length ? (
+          ""
+        ) : (
+          <Button type="button" onClick={onLoadmore} className="load-btn">
+            Load More
+          </Button>
+        ))}
     </div>
   );
 };
