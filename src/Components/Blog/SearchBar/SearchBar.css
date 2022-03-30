@@ -1,0 +1,30 @@
+.searchBar-warp {
+  background-color: transparent;
+  width: fit-content;
+  margin: 2.5rem auto 4rem auto;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.search-input {
+  right: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--clr-primary);
+  background-color: transparent;
+  padding: 10px;
+  font-size: 18px;
+  color: var(--clr-font);
+  width: 260px;
+}
+.clear {
+  background-color: var(--clr-primary);
+  border: 1px solid var(--clr-primary);
+  color: var(--btn-font) !important;
+  margin-left: 2px;
+  padding: 3px 6px 6px 6px;
+  border-radius: 50%;
+  border-left: none;
+  font-size: 16px;
+  color: var(--clr-primary);
+  cursor: pointer;
+}
