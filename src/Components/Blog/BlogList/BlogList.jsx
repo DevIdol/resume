@@ -8,13 +8,9 @@ const BlogList = () => {
   const blogs = getBlogs();
   let [searchParams, setSearchParams] = useSearchParams();
   const [loadmore, setLoadmore] = useState(3);
-  const sliceblogs = blogs.slice(0, loadmore);
-  const onLoadmore = () => {
-    setLoadmore((preValue) => preValue + 3);
-  };
-  const isLoadmore = blogs.length > loadmore;
 
-  const blog = sliceblogs.filter((data) => {
+
+  const blog = blogs.filter((data) => {
     let filter = searchParams.get("filter");
     if (!filter) return true;
     let name = data.category.toLowerCase();
@@ -24,6 +20,11 @@ const BlogList = () => {
   const clearSearch = () => {
     setSearchParams("");
   };
+  const sliceblogs = blog.slice(0, loadmore);
+  const onLoadmore = () => {
+    setLoadmore((preValue) => preValue + 3);
+  };
+  const isLoadmore = blogs.length > loadmore;
   return (
     <div className="container">
       <BlogListTitle
@@ -39,10 +40,10 @@ const BlogList = () => {
         }}
       />
       <div className="row">
-        {!blog.length ? (
+        {!sliceblogs.length ? (
           <h1>No Result</h1>
         ) : (
-          blog.map((data) => {
+          sliceblogs.map((data) => {
             return (
               <Link
                 to={`/blog/${data.id}`}
