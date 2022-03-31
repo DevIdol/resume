@@ -16,14 +16,19 @@ const BlogList = () => {
 
     return name.startsWith(filter.toLowerCase());
   });
+
   const clearSearch = () => {
     setSearchParams("");
   };
+
   const sliceblogs = blog.slice(0, loadmore);
   const onLoadmore = () => {
     setLoadmore((preValue) => preValue + 3);
   };
-  const isLoadmore = blogs.length > loadmore;
+  // const isLoadmore = blogs.length > loadmore;
+  const isFilterLoad = blog.length > loadmore;
+  console.log(isFilterLoad);
+
   return (
     <div className="container">
       <BlogListTitle
@@ -70,7 +75,7 @@ const BlogList = () => {
           })
         )}
       </div>
-      {isLoadmore &&
+      {isFilterLoad &&
         (!sliceblogs.length ? (
           ""
         ) : (
