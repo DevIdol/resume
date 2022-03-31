@@ -62,17 +62,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300 !important;
+  font-weight: 400 !important;
 }
 
 p {
   font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+  line-height: 200%;
 }
 a {
   font-size: 14px;
-}
-@media screen and (max-width: 400px) {
-  p {
-    font-size: 12px;
-  }
 }

@@ -1,12 +1,72 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import SearchBar from "../SearchBar/SearchBar";
+import classes from "./BlogViewRight.module.css";
+import { getBlogs } from "../BlogData";
 
 const BlogViewRight = () => {
+  const blogs = getBlogs();
+  let [searchParams, setSearchParams] = useSearchParams();
+
+  const blog = blogs.filter((data) => {
+    let filter = searchParams.get("filter");
+    if (!filter) return true;
+    let name = data.category.toLowerCase();
+
+    return name.startsWith(filter.toLowerCase());
+  });
+
+  const clearSearch = () => {
+    setSearchParams("");
+  };
+  const sliceBlog = blog.slice(0, 3);
   return (
-    <div>
-      <h1>Blog View Right</h1>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, iure dolorem. Repudiandae, quae et perspiciatis natus similique eum voluptates aliquid expedita excepturi blanditiis facilis voluptas atque cum quidem architecto? Nulla. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum exercitationem dolorem dolores ut quasi aspernatur perspiciatis eum illum amet, similique, ea dicta voluptatum architecto, labore vero harum doloribus voluptatibus non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, facere maiores? Consequatur perferendis cum deserunt eum architecto nulla reprehenderit ullam magni, amet corporis, ipsa accusamus iste nam a, quod cupiditate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus dolorem error rem provident aut quidem laboriosam eum atque architecto, nemo quis nesciunt quibusdam facilis placeat explicabo quae. Quidem, nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente totam rerum id eius exercitationem, vitae dignissimos earum architecto aspernatur pariatur harum, facilis perferendis tenetur, quod molestias provident iusto atque doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatum, corporis eaque dolor tempore atque. Libero facilis totam in laudantium earum, obcaecati laboriosam, veritatis exercitationem molestias tenetur sunt voluptatum veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non animi reprehenderit praesentium explicabo dolorem doloribus, sequi eligendi, vero tenetur quasi dicta commodi consequuntur! Velit non debitis placeat veritatis nam numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet perspiciatis molestias quia totam dignissimos animi ducimus voluptatem at porro commodi, culpa facere quis quod rerum voluptatum soluta ipsum explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit blanditiis possimus dicta ut nostrum voluptatem temporibus itaque maxime illum, deserunt suscipit officiis, officia, deleniti aspernatur exercitationem. Placeat cum sit eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor inventore nisi dolorum ratione, veniam modi illum animi, voluptatum corporis asperiores cumque velit consectetur. Iure minus magnam, porro doloribus eius officia.</p>
-      <h1>Footer</h1>
-    </div>
+    <Fragment>
+      <div className={classes["blog-view-right-header"]}>
+        <h4 className={classes["blog-view-right-title"]}>Latest Blogs</h4>
+        <SearchBar
+          onClear={clearSearch}
+          value={searchParams.get("filter") || ""}
+          onChange={(event) => {
+            let filter = event.target.value;
+            if (filter) {
+              setSearchParams({ filter });
+            } else {
+              setSearchParams({});
+            }
+          }}
+        />
+      </div>
+      {!sliceBlog.length ? (
+        <h1 style={{ textAlign: "center", paddingTop: "100px" }}>No Result!</h1>
+      ) : (
+        sliceBlog.map((data) => (
+          <Link
+            to={`/blog/${data.id}`}
+            key={data.id}
+            className={classes["blog-view-right-items"]}
+          >
+            <img
+              className={classes["blog-view-right-items-img"]}
+              src={data.img}
+              alt="Img"
+            />
+            <div className={classes["blog-items-content"]}>
+              <h3 className={classes["blog-view-right-items-title"]}>
+                {data.title}
+              </h3>
+              <div className={classes["blog-view-left-sub-title"]}>
+                <div className={classes["left-sub-title"]}>
+                  <div className={classes.divider}></div>
+                  <h4 className={classes["blog-category"]}>{data.category}</h4>
+                </div>
+                <h6 className={classes["blog-date"]}>2 days ago</h6>
+              </div>
+            </div>
+          </Link>
+        ))
+      )}
+    </Fragment>
   );
 };
 
