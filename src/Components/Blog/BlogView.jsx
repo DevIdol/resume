@@ -9,7 +9,7 @@ const BlogView = () => {
     <div style={{ padding: "100px" }}>
       <h1>{blog.category}</h1>
       <h5>{blog.title}</h5>
-      <h6>{blog.body}</h6>
+      <h6>{blog.description}</h6>
     </div>
   );
 };

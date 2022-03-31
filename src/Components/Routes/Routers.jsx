@@ -8,7 +8,7 @@ import Blog from "../Blog/BlogList/Blog";
 import Home from "../Resume/Home";
 import NavBar from "../NavBar/NavBar";
 import Portfolio from "../PortFolio/Portfolio";
-import BlogView from "../Blog/BlogView";
+import BlogView from "../Blog/BlogView/BlogView";
 const Routers = () => {
   return (
     <Router>
