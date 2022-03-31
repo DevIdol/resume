@@ -27,7 +27,6 @@ const BlogList = () => {
   };
   // const isLoadmore = blogs.length > loadmore;
   const isFilterLoad = blog.length > loadmore;
-  console.log(isFilterLoad);
 
   return (
     <div className="container">
