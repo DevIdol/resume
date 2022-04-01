@@ -1,20 +1,20 @@
 .blog-items {
   height: 400px;
+  position: relative;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.2) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.4) 0px 2px 16px 0px;
 }
 
-.blog-item {
-  position: relative;
-  height: 100%;
-  width: auto;
-}
-.blog-item img {
+.blog-img {
   position: absolute;
   border-radius: 16px;
+  padding: 10px;
   width: 100%;
   height: 70%;
   top: 0;
   left: 0;
-  z-index: -1;
 }
 .divider {
   position: absolute;
@@ -41,8 +41,9 @@
 .blog-item-title {
   position: absolute;
   font-size: 18px;
-  left: 0;
+  left: 0px;
   top: 80%;
+  width: 100%;
   color: var(--clr-font);
   overflow: hidden;
   text-overflow: ellipsis;
@@ -55,7 +56,7 @@
 }
 
 @media screen and (max-width: 991px) {
-    .blog-items {
-        height: 340px;
-      }
+  .blog-items {
+    height: 340px;
+  }
 }

@@ -62,13 +62,13 @@ const BlogList = () => {
                 key={data.id}
                 className="col-md-4 blog-items"
               >
-                <div className="blog-item">
-                  <img src={data.img} alt="Img.." />
+                
+                  <img className="blog-img" src={data.img} alt="Img.." />
                   <div className="divider"></div>
                   <h4 className="blog-category">{data.category}</h4>
                   <h6 className="text-muted blog-date">2 days ago</h6>
-                  <h1 className="blog-item-title">{data.title}</h1>
-                </div>
+                  <h2 className="blog-item-title">{data.title}</h2>
+                
               </Link>
             );
           })
