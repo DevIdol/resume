@@ -10,7 +10,7 @@
   margin-top: 20px;
 }
 .nav-item {
-  padding: 0 20px;
+  padding: 0 14px;
   color: var(--clr-font);
   font-weight: 400;
   text-transform: uppercase;
@@ -20,10 +20,10 @@
 }
 
 
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 610px) {
   .nav-center {
     position: absolute;
-    bottom: 14px;
+    bottom: 16px;
     right: 50%;
     left: 50%;
   }

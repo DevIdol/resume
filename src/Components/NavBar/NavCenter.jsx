@@ -5,6 +5,8 @@ import { getNavItems } from "./NavBarItems";
 import classes from "./NavCenter.module.css";
 
 const NavCenter = () => {
+  const admin = false;
+  const isLogin = false;
   const [{ theme }] = useContext(ThemeContext);
   const navItems = getNavItems();
 
@@ -26,6 +28,20 @@ const NavCenter = () => {
           {data.name}
         </NavLink>
       ))}
+      {admin && (
+        <NavLink
+          className={classes["nav-item"]}
+          style={({ isActive }) => {
+            return {
+              fontWeight: isActive ? 800 : "",
+              color: isActive ? activeColor : "",
+            };
+          }}
+          to={isLogin ? "/admin-dashboard" : "/login"}
+        >
+          Admin
+        </NavLink>
+      )}
     </nav>
   );
 };
