@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.b1a588dc.css",
-    "main.js": "/resume/static/js/main.041b24b8.js",
+    "main.css": "/resume/static/css/main.0a277bde.css",
+    "main.js": "/resume/static/js/main.02345415.js",
     "static/media/culibrary.apk": "/resume/static/media/culibrary.05ea43dc421524d5f200.apk",
     "static/media/five.png": "/resume/static/media/five.d1acf7334717c902f96c.png",
     "static/media/one.png": "/resume/static/media/one.1cc4f60e9678bb3baf3e.png",
@@ -14,11 +14,11 @@
     "static/media/light.png": "/resume/static/media/light.34ba3220252346bfab1e.png",
     "static/media/dark.png": "/resume/static/media/dark.71c3eeb5e367f6db31e8.png",
     "index.html": "/resume/index.html",
-    "main.b1a588dc.css.map": "/resume/static/css/main.b1a588dc.css.map",
-    "main.041b24b8.js.map": "/resume/static/js/main.041b24b8.js.map"
+    "main.0a277bde.css.map": "/resume/static/css/main.0a277bde.css.map",
+    "main.02345415.js.map": "/resume/static/js/main.02345415.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1a588dc.css",
-    "static/js/main.041b24b8.js"
+    "static/css/main.0a277bde.css",
+    "static/js/main.02345415.js"
   ]
 }
