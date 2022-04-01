@@ -6,7 +6,7 @@ const blogs = [
     category: "Flutter",
     img: five,
     title:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed quia adipisci odio, sequi ea explicabo laudantium deserunt reprehenderit aspernatur praesentium. Dolorem necessitatibus a consectetur ad voluptate odio asperiores facere?",
+      "Dolorem necessitatibus a consectetur ad voluptate odio asperiores facere?",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?",
   },
@@ -16,7 +16,7 @@ const blogs = [
     category: "Ubuntu",
     img: five,
     title:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?",
+      "Fuga, perferendis molestiae, sunt dolorem doloribus earum consectetur?",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?",
   },
@@ -26,7 +26,7 @@ const blogs = [
     category: "JavaScript",
     img: five,
     title:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
+      "Doloremque aperiam atque dignissimos in porro odit, odio exercitationem.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit nemo voluptatum harum tenetur, optio perspiciatis. Fuga, perferendis molestiae animi ipsa commodi est ipsum blanditiis, sunt dolorem doloribus earum consectetur?",
   },
@@ -36,7 +36,7 @@ const blogs = [
     category: "PHP",
     img: five,
     title:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
+      "Similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
   },
@@ -46,7 +46,7 @@ const blogs = [
     category: "Laravel",
     img: five,
     title:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
+      "Doloremque aperiam atque dignissimos in porro odit,fuga eius placeat ratione optio animi, odio exercitationem.",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
   },
@@ -56,7 +56,7 @@ const blogs = [
     category: "Nodejs",
     img: five,
     title:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
+      "Doloremque aperiam atque dignissimos in porro odit,  odio exercitationem.",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque aperiam atque dignissimos in porro odit, eos aut sed cum similique tenetur illum fuga eius placeat ratione optio animi, odio exercitationem.",
   },

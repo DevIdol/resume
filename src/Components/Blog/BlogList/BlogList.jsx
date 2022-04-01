@@ -57,16 +57,32 @@ const BlogList = () => {
         ) : (
           sliceblogs.map((data, index) => {
             return (
-              <Link
-                to={`/blog/${data.id}`}
-                key={index}
-                className="col-md-4 blog-items"
-              >
-                <img className="blog-img" src={data.img} alt="Img.." />
-                <div className="divider"></div>
-                <h4 className="blog-category">{data.category}</h4>
-                <h6 className="text-muted blog-date">2 days ago</h6>
-                <h2 className="blog-item-title">{data.title}</h2>
+              <Link to={`/blog/${data.id}`} key={index} className="col-md-4">
+                <div className="card blog-item">               
+                    <img
+                      src={data.img}
+                      alt="blog-img"
+                      className="card-img-top blog-img"
+                    />
+                
+                  <div className="card-body">
+                    <div className="card-subtitle blog-subtitle">
+                      <div className="blog-type">
+                        <div className="blog-divider"></div>
+                        <div className="blog-type-name">
+                          <h6>{data.category}</h6>
+                        </div>
+                      </div>
+                      <div className="blog-date">
+                        <p className="text-muted">2 days ago</p>
+                      </div>
+                    </div>
+
+                    <h5 className="card-title blog-title">
+                     {data.title}
+                    </h5>
+                  </div>
+                </div>
               </Link>
             );
           })
