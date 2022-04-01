@@ -37,7 +37,7 @@ const FrontEndData = [
   {
     id: 6,
     name: "Flutter/Dart",
-    progress: 65,
+    progress: 60,
     color: "#fff",
     bgcolor: " #0000ff",
   },

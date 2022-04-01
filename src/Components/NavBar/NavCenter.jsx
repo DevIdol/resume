@@ -6,7 +6,6 @@ import classes from "./NavCenter.module.css";
 
 const NavCenter = () => {
   const admin = false;
-  const isLogin = false;
   const [{ theme }] = useContext(ThemeContext);
   const navItems = getNavItems();
 
@@ -37,7 +36,7 @@ const NavCenter = () => {
               color: isActive ? activeColor : "",
             };
           }}
-          to={isLogin ? "/admin-dashboard" : "/login"}
+          to="/admin-dashboard"
         >
           Admin
         </NavLink>

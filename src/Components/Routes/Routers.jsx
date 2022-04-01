@@ -12,26 +12,18 @@ const Routers = () => {
   const admin = false;
   return (
     <Router>
+      <NavBar />
       <Routes>
-        <Route path="resume" element={<NavBar />}>
-          <Route index element={<Home />} />
-        </Route>
-        <Route path="project" element={<NavBar />}>
-          <Route index element={<Portfolio />} />
-        </Route>
-        <Route path="blog" element={<NavBar />}>
-          <Route index element={<Blog />} />
-          <Route path=":id" element={<BlogView />} />
-        </Route>
+        <Route path="resume" element={<Home />} />
+        <Route path="project" element={<Portfolio />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="blog/:id" element={<BlogView />} />
 
-        <Route
-          path={admin ? "admin-dashboard" : "login"}
-          element={admin ? <Admin /> : <Login />}
-        />
+        <Route path="admin-dashboard" element={admin && <Admin />} />
 
-        <Route path="login" element={<Login />} />
+        <Route path="login" element={admin ? <Home /> : <Login />} />
 
-        <Route path="register" element={<Register />} />
+        <Route path="register" element={admin ? <Home /> : <Register />} />
         <Route
           path="*"
           element={

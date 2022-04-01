@@ -1,12 +1,11 @@
 import { FaCss3Alt, FaBootstrap, FaLaravel } from "react-icons/fa";
-
 import { ImHtmlFive } from "react-icons/im";
 import { RiFlutterFill } from "react-icons/ri";
 import { DiJavascript1, DiJqueryLogo } from "react-icons/di";
-import { SiPhp, SiFirebase } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
 import culib from "../../assets/project/culibrary.png";
 import five from "../../assets/project/five.png";
-import four from "../../assets/project/four.png";
+// import four from "../../assets/project/four.png";
 import three from "../../assets/project/three.png";
 import two from "../../assets/project/two.png";
 import one from "../../assets/project/one.png";
@@ -77,22 +76,22 @@ const PortfolioData = [
         "https://github.com/DevIdol/sample_portfolio_website_with_laravel/archive/refs/heads/main.zip",
     },
   },
+  // {
+  //   id: 5,
+  //   type: "web",
+  //   items: {
+  //     img: four,
+  //     title: "CMS",
+  //     describtion:
+  //       "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
+  //     language: [...language, <SiPhp />],
+  //     link: "https://github.com/DevIdol/php_tutorials/tree/main/cms",
+  //     download:
+  //       "https://github.com/DevIdol/php_tutorials/archive/refs/heads/main.zip",
+  //   },
+  // },
   {
     id: 5,
-    type: "web",
-    items: {
-      img: four,
-      title: "CMS",
-      describtion:
-        "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
-      language: [...language, <SiPhp />],
-      link: "https://github.com/DevIdol/php_tutorials/tree/main/cms",
-      download:
-        "https://github.com/DevIdol/php_tutorials/archive/refs/heads/main.zip",
-    },
-  },
-  {
-    id: 6,
     type: "mobile",
     items: {
       img: culib,

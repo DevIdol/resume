@@ -18,9 +18,9 @@ const AllPortfolio = () => {
   return (
     <div className="container text-center">
       <div className="row">
-        {sliceporfo.map((data) => {
+        {sliceporfo.map((data, index) => {
           return (
-            <div key={data.id} className="col-md-4 items">
+            <div key={index} className="col-md-4 items">
               <Card className="portfolio-item">
                 <img className="img" src={data.items.img} alt="" />
                 <div className="language">
