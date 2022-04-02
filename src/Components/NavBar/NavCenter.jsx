@@ -38,7 +38,7 @@ const NavCenter = () => {
           }}
           to="/admin-dashboard"
         >
-          Admin
+          ADMIN
         </NavLink>
       )}
     </nav>

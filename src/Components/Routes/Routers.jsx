@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Blog from "../Blog/BlogList/Blog";
 import Home from "../Resume/Home";
 import NavBar from "../NavBar/NavBar";
 import Portfolio from "../PortFolio/Portfolio";
-import BlogView from "../Blog/BlogView/BlogView";
 import Admin from "../Admin/Admin";
 import Login from "../Auth/Login/Login";
 import Register from "../Auth/Rigister/Register";
+import Blog from "../Blog/Blog";
 const Routers = () => {
   const admin = false;
   return (
@@ -16,14 +15,13 @@ const Routers = () => {
       <Routes>
         <Route path="resume" element={<Home />} />
         <Route path="project" element={<Portfolio />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="blog/:id" element={<BlogView />} />
+        <Route path="blog" element={<Blog/>} />
 
-        <Route path="admin-dashboard" element={admin && <Admin />} />
+        {admin && <Route path="admin-dashboard" element={<Admin />} />}
 
-        <Route path="login" element={admin ? <Home /> : <Login />} />
+        {!admin && <Route path="login" element={<Login />} />}
+        {!admin && <Route path="register" element={<Register />} />}
 
-        <Route path="register" element={admin ? <Home /> : <Register />} />
         <Route
           path="*"
           element={
