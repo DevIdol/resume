@@ -1,10 +1,16 @@
 import React from 'react'
+import classes from "./Blog.module.css"
+import BlogList from './BlogList/BlogList'
+import SideBar from './SideBar/SideBar'
 
 const Blog = () => {
   return (
-   <section className='text-center' style={{paddingTop: "100px"}}>
-       <h3>To Be Continued Blog Page</h3>
-   </section>
+  
+     <section className={classes.blog}>
+       <BlogList/>
+       <SideBar/>
+     </section>
+   
   )
 }
 

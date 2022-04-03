@@ -1,0 +1,11 @@
+.blogView{
+    padding-top: 90px;
+    display: flex;
+}
+
+@media screen and (max-width: 960px) {
+    .blogView{
+        flex-direction: column;
+    }
+    
+}

@@ -15,7 +15,7 @@ const Routers = () => {
       <Routes>
         <Route path="resume" element={<Home />} />
         <Route path="project" element={<Portfolio />} />
-        <Route path="blog" element={<Blog/>} />
+        <Route path="blog" element={<Blog />} />
 
         {admin && <Route path="admin-dashboard" element={<Admin />} />}
 

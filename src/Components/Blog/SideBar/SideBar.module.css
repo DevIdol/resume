@@ -1,0 +1,20 @@
+.sideBar {
+  position: fixed;
+  top: 120px;
+  right: 2px;
+  width: calc(100% - 65%);
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+.sideBarTitle{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 4px 0px;
+}
+@media screen and (max-width: 960px) {
+  .sideBar {
+    position: static;
+    width: 100%;
+  }
+}
