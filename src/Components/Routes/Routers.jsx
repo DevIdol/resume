@@ -7,6 +7,7 @@ import Admin from "../Admin/Admin";
 import Login from "../Auth/Login/Login";
 import Register from "../Auth/Rigister/Register";
 import Blog from "../Blog/Blog";
+import BlogView from "../Blog/BlogView";
 const Routers = () => {
   const admin = false;
   return (
