@@ -14,7 +14,8 @@ const MobilePortfolio = () => {
   const mobileportfo = portfolio.filter((data) => {
     return data.type === "mobile";
   });
-  const sliceporfo = mobileportfo.slice(0, loadmore);
+  const reverseMobilePortfolio = mobileportfo.slice(0).reverse();
+  const sliceporfo = reverseMobilePortfolio.slice(0, loadmore);
   const onLoadmore = () => {
     setLoadmore((preValue) => preValue + 3);
   };

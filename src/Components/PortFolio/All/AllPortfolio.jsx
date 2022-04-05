@@ -10,7 +10,8 @@ const down = <MdDownload />;
 const AllPortfolio = () => {
   const porfoliodata = getPortfolioData();
   const [loadmore, setLoadmore] = useState(3);
-  const sliceporfo = porfoliodata.slice(0, loadmore);
+  const reversePortfolio = porfoliodata.slice(0).reverse();
+  const sliceporfo = reversePortfolio.slice(0, loadmore);
   const onLoadmore = () => {
     setLoadmore((preValue) => preValue + 3);
   };

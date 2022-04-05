@@ -15,7 +15,8 @@ const WebPortfolio = () => {
   const webportfo = portfolio.filter((data) => {
     return data.type === "web";
   });
-  const sliceporfo = webportfo.slice(0, loadmore);
+  const reverseWebPortfolio = webportfo.slice(0).reverse();
+  const sliceporfo = reverseWebPortfolio.slice(0, loadmore);
   const onLoadmore = () => {
     setLoadmore((preValue) => preValue + 3);
   };
