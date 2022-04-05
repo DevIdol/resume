@@ -8,8 +8,9 @@ import { getBlogs } from "../BlogData";
 const BlogList = () => {
   const blogs = getBlogs();
   const [loadMore, setLoadMore] = useState(2);
+  const reverseBlogs = blogs.slice(0).reverse();
 
-  const sliceBlogs = blogs.slice(0, loadMore);
+  const sliceBlogs = reverseBlogs.slice(0, loadMore);
 
   const onLoadMore = () => {
     setLoadMore((pre) => pre + 2);
