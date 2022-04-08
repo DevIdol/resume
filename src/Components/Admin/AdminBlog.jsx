@@ -7,7 +7,7 @@ import five from '../../assets/project/five.png'
 const AdminBlog = () => {
   return (
     <Fragment>
-      <h2 className={classes.title}>Blog Page</h2>
+      <h2 className={classes.title}>Blog</h2>
       <img className={classes.adminBlogImg} src={five} alt="blogImg" />
       <div className={classes.adminBlog}>
         <form className={classes.adminBlogForm}>

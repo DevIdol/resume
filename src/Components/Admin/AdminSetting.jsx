@@ -8,7 +8,7 @@ const AdminSetting = () => {
   return (
     <Fragment>
       <div className={classes.settingTitle}>
-        <span className={classes.settingUpdateTitle}>Update Your Account</span>
+        <span className={classes.settingUpdateTitle}>Update Account</span>
         <span className={classes.settingDeleteTitle}>Delete Account</span>
       </div>
       <form action="" className={classes.settingForm}>
