@@ -1,0 +1,71 @@
+.admin {
+  padding-top: 90px;
+}
+.adminLeft {
+  position: fixed;
+  top: 90px;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  height: 100%;
+  overflow-x: hidden;
+  box-shadow: 6px 0 5px -5px rgba(128, 128, 128, 0.8);
+  background-color: var(--clr-bcg);
+  z-index: 2;
+}
+.adminRight {
+  width: calc(100% - 280px);
+  height: 100%;
+  margin-left: 280px;
+  padding: 0 20px;
+  z-index: -1;
+}
+.overflow {
+  position: absolute;
+  top: 90px;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.adminHeader {
+  padding: 20px 0 30px 0;
+  cursor: pointer;
+}
+.me {
+  width: 26px;
+  height: 26px;
+  background-size: cover;
+}
+.adminMail {
+  font-size: 14px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.adminItem {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.adminItem.active {
+  color: var(--clr-primary);
+  font-size: 17px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+@media screen and (max-width: 940px) {
+  .adminLeft {
+    left: -300px;
+    transition: var(--transition);
+  }
+  .adminLeft.active {
+    left: 0;
+    transition: var(--transition);
+  }
+  .adminRight {
+    width: 100%;
+    margin: 0;
+  }
+}

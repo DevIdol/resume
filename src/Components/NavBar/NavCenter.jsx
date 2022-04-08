@@ -5,7 +5,7 @@ import { getNavItems } from "./NavBarItems";
 import classes from "./NavCenter.module.css";
 
 const NavCenter = () => {
-  const admin = false;
+  const admin = true;
   const [{ theme }] = useContext(ThemeContext);
   const navItems = getNavItems();
 
