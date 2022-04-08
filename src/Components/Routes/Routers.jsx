@@ -8,7 +8,7 @@ import Login from "../Auth/Login/Login";
 import Register from "../Auth/Rigister/Register";
 import Blog from "../Blog/Blog";
 const Routers = () => {
-  const admin = true;
+  const admin = false;
   return (
     <Router>
       <NavBar />
