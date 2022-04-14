@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 510px) {
   .github, .mail, .toggle-theme{
     margin-top: -36px;
   }

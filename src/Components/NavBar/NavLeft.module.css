@@ -3,7 +3,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 510px) {
   .logo {
     margin-top: -36px;
   }

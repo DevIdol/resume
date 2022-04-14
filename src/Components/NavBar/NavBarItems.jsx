@@ -9,11 +9,6 @@ const NavItems = [
     link: "/project",
     name: "PROJECT",
   },
-  {
-    id: 3,
-    link: "/blog",
-    name: "BLOG",
-  },
 ];
 
 export const getNavItems = () => NavItems;

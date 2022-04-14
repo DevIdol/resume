@@ -15,8 +15,8 @@ const BackEndData = [
   },
   {
     id: 3,
-    name: "NodeJS",
-    progress: 40,
+    name: "NodeJS/MongoDB",
+    progress: 45,
     color: "#fff",
     bgcolor: "#3c973a",
   },
