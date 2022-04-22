@@ -119,9 +119,9 @@ const PortfolioData = [
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
       language: [<FaReact />, <FaNodeJs />],
-      link: "https://github.com/DevIdol/sample_laravel_ecommerce",
+      link: "https://github.com/DevIdol?tab=repositories",
       download:
-        "https://github.com/DevIdol/sample_laravel_ecommerce/archive/refs/heads/main.zip",
+        "",
     },
   },
 ];

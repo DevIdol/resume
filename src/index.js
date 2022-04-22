@@ -8,7 +8,7 @@ import { ThemeContext, ThemeProvider } from './Context/ThemeContext'
 const PreLoader = () => {
   const [{ theme }] = useContext(ThemeContext)
   const [done, setDone] = useState(undefined)
-  const lodingColor = theme === 'dark' ? '#65fcdb' : '#db084e'
+  const loadingColor = theme === 'dark' ? '#65fcdb' : '#db084e'
   useEffect(() => {
     setTimeout(() => {
       setDone(true)
@@ -20,7 +20,7 @@ const PreLoader = () => {
       {!done ? (
         <ReactLoading
           type={'bars'}
-          color={lodingColor}
+          color={loadingColor}
           height={100}
           width={100}
           className="preloader"
