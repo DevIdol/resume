@@ -18,13 +18,16 @@ const PreLoader = () => {
   return (
     <Fragment>
       {!done ? (
-        <ReactLoading
-          type={'bars'}
-          color={loadingColor}
-          height={100}
-          width={100}
-          className="preloader"
-        />
+        <div id="preloader">
+          <h3>Loading</h3>
+          <ReactLoading
+            className="preloaderIcon"
+            type={'bubbles'}
+            color={loadingColor}
+            height={50}
+            width={50}
+          />
+        </div>
       ) : (
         <App />
       )}
