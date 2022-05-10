@@ -49,7 +49,7 @@ const OtherSkillData = [
   },
   {
     id: 3,
-    title: "Language",
+    title: "Languages",
     skill: [
       {
         id: 1,
@@ -65,7 +65,7 @@ const OtherSkillData = [
   },
   {
     id: 4,
-    title: "Certification",
+    title: "Certifications",
     skill: [
       {
         id: 1,
