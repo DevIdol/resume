@@ -38,12 +38,12 @@ const OtherSkillData = [
       {
         id: 1,
         icon: <SiAdobexd />,
-        type: "AdobeXD (UI/UX)",
+        type: "Adobe XD",
       },
       {
         id: 2,
         icon: <SiAdobepremierepro />,
-        type: "Adobe Premiere Pro (Video Editing)",
+        type: "Adobe Premiere Pro",
       },
     ],
   },
@@ -65,7 +65,7 @@ const OtherSkillData = [
   },
   {
     id: 4,
-    title: "Certificate",
+    title: "Certification",
     skill: [
       {
         id: 1,

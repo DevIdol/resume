@@ -2,20 +2,20 @@ const FrontEndData = [
   {
     id: 1,
     name: "HTML",
-    progress: 90,
+    progress: 95,
     color: "#fff",
     bgcolor: "#e44d26",
   },
   {
     id: 2,
-    name: "CSS",
-    progress: 70,
+    name: "CSS3",
+    progress: 75,
     color: "#fff",
     bgcolor: "#264de4",
   },
   {
     id: 3,
-    name: "JavaScript",
+    name: "JavaScript(ES6+)",
     progress: 55,
     color: "#000",
     bgcolor: "#f0db4f",
@@ -39,7 +39,22 @@ const FrontEndData = [
     name: "Flutter/Dart",
     progress: 60,
     color: "#fff",
-    bgcolor: " #0000ff",
+    bgcolor: "#0000ff",
+  },
+
+  {
+    id: 7,
+    name: "MUI4/5",
+    progress: 60,
+    color: "#fff",
+    bgcolor: "#0000ff",
+  },
+  {
+    id: 8,
+    name: "Bootstrap4/5",
+    progress: 80,
+    color: "#fff",
+    bgcolor: "#7952b3",
   },
 ];
 export const getFrontEndData = () => FrontEndData;

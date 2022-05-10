@@ -1,17 +1,19 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import { Spinner } from "react-bootstrap";
 import Input from "../../Screens/Input";
 import Button from "../../Screens/Button";
 import classes from "./ContactForm.module.css";
 import { AlertMessage } from "../../Alert/Alert";
 const ContactForm = () => {
+  const [loading, setLoading] = useState(false);
   const [successAlt, setSuccessAlt] = useState(undefined);
   const [errorAlt, setErrorAlt] = useState(undefined);
 
   const handleForm = useRef();
   const onSubmitEmail = (e) => {
     e.preventDefault();
-
+    setLoading(true);
     emailjs
       .sendForm(
         "service_qc9qyid",
@@ -21,13 +23,15 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
+          result && setLoading(false);
           result && setSuccessAlt(true);
           result &&
             setTimeout(() => {
               setSuccessAlt(false);
-            }, 3200);
+            }, 5200);
         },
         (error) => {
+          error && setLoading(false);
           error && setErrorAlt(true);
           error &&
             setTimeout(() => {
@@ -63,7 +67,9 @@ const ContactForm = () => {
           rows="6"
           required
         />
-        <Button className={classes.button} type="submit">Send Message</Button>
+        <Button className={classes.button} type="submit">
+          {loading ? <Spinner animation="border" /> : "Send Message"}
+        </Button>
       </form>
     </div>
   );
