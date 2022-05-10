@@ -28,7 +28,7 @@ const ContactForm = () => {
           result &&
             setTimeout(() => {
               setSuccessAlt(false);
-            }, 5200);
+            }, 6200);
         },
         (error) => {
           error && setLoading(false);
@@ -36,7 +36,7 @@ const ContactForm = () => {
           error &&
             setTimeout(() => {
               setErrorAlt(false);
-            }, 3200);
+            }, 6200);
         }
       );
     e.target.reset();
@@ -45,8 +45,8 @@ const ContactForm = () => {
   return (
     <div className={classes["contact-form"]}>
       <form className={classes.form} ref={handleForm} onSubmit={onSubmitEmail}>
-        {successAlt && <AlertMessage alert="success" message="Success!" />}
-        {errorAlt && <AlertMessage alert="error" message="Error!" />}
+        {successAlt && <AlertMessage alert="success" message="Email Send Successfully!" />}
+        {errorAlt && <AlertMessage alert="error" message="Internet Connection Faild!" />}
 
         <Input
           className={classes["input-form"]}

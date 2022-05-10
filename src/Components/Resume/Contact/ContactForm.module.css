@@ -21,6 +21,7 @@
 }
 .input-form{
     width: 50%;
+    background-color: var(--clr-bcg);
 }
 .button{
   margin-top: 10px;
