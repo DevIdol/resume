@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { RiMedalFill } from "react-icons/ri";
 import Title from "../Screens/Title";
 import classes from "./Portfolio.module.css";
 import PortfolioButton from "./PortfolioButton";
 import Footer from "../Footer/Footer";
 const Portfolio = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section id="myportfo" className={classes["portfolio-section"]}>
       <div className={classes.title}>
