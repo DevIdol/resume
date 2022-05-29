@@ -6,6 +6,7 @@ import PortfolioButton from "./PortfolioButton";
 import Footer from "../Footer/Footer";
 const Portfolio = () => {
   useEffect(() => {
+    document.title = "DevIdol | Projects"
     window.scrollTo(0, 0);
   }, []);
   return (
