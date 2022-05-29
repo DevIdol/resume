@@ -29,7 +29,7 @@ const FrontEndData = [
   },
   {
     id: 5,
-    name: "ReactJS",
+    name: "React/Next.js",
     progress: 55,
     color: "#000",
     bgcolor: "#61dbfb",

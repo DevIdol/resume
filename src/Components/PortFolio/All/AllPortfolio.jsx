@@ -15,7 +15,11 @@ const AllPortfolio = () => {
   const onLoadmore = () => {
     setLoadmore((preValue) => preValue + 3);
   };
+  const onLoadBack = () => {
+    setLoadmore((pre) => pre - 3);
+  };
   const isLoadmore = porfoliodata.length > loadmore;
+  const isLoadback = sliceporfo.length > 3;
   return (
     <div className="container text-center">
       <div className="row">
@@ -46,11 +50,18 @@ const AllPortfolio = () => {
           );
         })}
       </div>
-      {isLoadmore && (
-        <Button type="button" onClick={onLoadmore} className="load-btn">
-          Load More
-        </Button>
-      )}
+      <div className="load">
+        {isLoadback && (
+          <Button type="button" onClick={onLoadBack} className="load-btn">
+            Load Back
+          </Button>
+        )}
+        {isLoadmore && (
+          <Button type="button" onClick={onLoadmore} className="load-btn">
+            Load More
+          </Button>
+        )}
+      </div>
     </div>
   );
 };

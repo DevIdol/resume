@@ -58,7 +58,15 @@
 .down:hover {
   color: var(--clr-primary);
 }
-.load-btn{
+.load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.load-btn {
+  width: 100px;
+  padding: 8px 6px;
   margin-top: 20px;
 }
 @media screen and (max-width: 1199px) {
