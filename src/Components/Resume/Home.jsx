@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   useEffect(()=> {
-    document.title = "DevIdol | Resume"
+    document.title = "Portfolio | Resume"
     window.scrollTo(0, 0)
   },[])
   return (

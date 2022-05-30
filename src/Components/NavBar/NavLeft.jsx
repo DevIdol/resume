@@ -1,15 +1,11 @@
-import React, { Fragment, useContext } from "react";
-import darklogo from "../../assets/dark.png";
-import lightlogo from "../../assets/light.png";
-import { ThemeContext } from "../../Context/ThemeContext";
-import classes from "./NavLeft.module.css"
+import React, { Fragment } from "react";
+
+import classes from "./NavLeft.module.css";
 
 const NavLeft = () => {
-  const [{ theme }] = useContext(ThemeContext);
-  const logo = theme === "dark" ? lightlogo : darklogo;
   return (
     <Fragment>
-      <img className={classes.logo} src={logo} alt="" />
+      <h1 className={classes.navLeft}>Portfolio</h1>
     </Fragment>
   );
 };
