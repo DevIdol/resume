@@ -7,8 +7,8 @@ import {
 } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
 import { RiFlutterFill } from "react-icons/ri";
-import { DiJavascript1, DiJqueryLogo } from "react-icons/di";
-import { SiFirebase, SiPhp } from "react-icons/si";
+import { DiJavascript1, DiJqueryLogo,DiMongodb } from "react-icons/di";
+import { SiFirebase, SiPhp, SiMysql } from "react-icons/si";
 import culib from "../../assets/project/culibrary.png";
 import five from "../../assets/project/five.png";
 import four from "../../assets/project/four.png";
@@ -48,7 +48,7 @@ const PortfolioData = [
       title: "CMS",
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
-      language: [...language, <SiPhp />],
+      language: [...language, <SiPhp />, <SiMysql/>],
       link: "https://github.com/DevIdol/php_tutorials/tree/main/cms",
       download:
         "https://github.com/DevIdol/php_tutorials/archive/refs/heads/main.zip",
@@ -62,7 +62,7 @@ const PortfolioData = [
       title: "Portfolio WebSite",
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
-      language: [<FaLaravel />],
+      language: [<FaLaravel />, <SiMysql/>],
       link: "https://github.com/DevIdol/sample_portfolio_website_with_laravel",
       download:
         "https://github.com/DevIdol/sample_portfolio_website_with_laravel/archive/refs/heads/main.zip",
@@ -104,7 +104,7 @@ const PortfolioData = [
       title: "Mini Ecomeerce",
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
-      language: [<FaLaravel />],
+      language: [<FaLaravel />, <SiMysql/>],
       link: "https://github.com/DevIdol/sample_laravel_ecommerce",
       download:
         "https://github.com/DevIdol/sample_laravel_ecommerce/archive/refs/heads/main.zip",
@@ -115,10 +115,10 @@ const PortfolioData = [
     type: "web",
     items: {
       img: blog,
-      title: "Blog WebSite",
+      title: "MERN Stack Blog",
       describtion:
         "Quae esse totam blanditiis modi aspernatur! Libero aspernatur autem voluptatibus modi doloremque perspiciatis rem id, deleniti accusantium minus nam ea quae vero!",
-      language: [<FaReact />, <FaNodeJs />],
+      language: [<FaReact />, <FaNodeJs />, <DiMongodb/>, "ex"],
       link: "https://github.com/DevIdol?tab=repositories",
       download:
         "",
