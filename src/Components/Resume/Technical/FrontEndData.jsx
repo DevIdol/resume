@@ -8,7 +8,7 @@ const FrontEndData = [
   },
   {
     id: 2,
-    name: "CSS3",
+    name: "CSS3/SCSS",
     progress: 75,
     color: "#fff",
     bgcolor: "#264de4",

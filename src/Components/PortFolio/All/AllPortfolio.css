@@ -1,6 +1,13 @@
 .items {
   height: 300px;
   padding-bottom: 30px;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.items:hover{
+  margin-top: -10px;
+  height: 320px;
+  transition: var(--transition);
 }
 .portfolio-item {
   position: relative;
