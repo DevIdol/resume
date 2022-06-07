@@ -1,18 +1,9 @@
 .footer {
   margin-top: 60px;
+  padding-top: 40px;
   width: 100%;
   background-color: #050627;
   color: var(--text-color);
-}
-.logo {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
-.logo img {
-  width: 120px;
-  height: auto;
 }
 .footer-content {
   text-align: center;
