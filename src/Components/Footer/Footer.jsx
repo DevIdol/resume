@@ -21,7 +21,7 @@ const Footer = ({href}) => {
             href="https://www.facebook.com/profile.php?id=100026052723303"
             target="_blank"
           >
-            Developed By DevIdol
+            Developed By Ha Shing Thang
           </a>
         </h5>
         <h6>Copyright &copy; 2021 - {new Date().getFullYear()}</h6>
