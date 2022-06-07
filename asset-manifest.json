@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.c81608df.css",
-    "main.js": "/resume/static/js/main.866bda83.js",
+    "main.css": "/resume/static/css/main.0fdebb2e.css",
+    "main.js": "/resume/static/js/main.1ba20366.js",
     "static/media/culibrary.apk": "/resume/static/media/culibrary.05ea43dc421524d5f200.apk",
     "static/media/five.png": "/resume/static/media/five.d1acf7334717c902f96c.png",
     "static/media/one.png": "/resume/static/media/one.1cc4f60e9678bb3baf3e.png",
@@ -11,13 +11,12 @@
     "static/media/culibrary.png": "/resume/static/media/culibrary.7d9b1e17df225bbbc960.png",
     "static/media/me.png": "/resume/static/media/me.f96ad7b5568057682a18.png",
     "static/media/Resume.pdf": "/resume/static/media/Resume.c6afca80f311291bef70.pdf",
-    "static/media/light.png": "/resume/static/media/light.34ba3220252346bfab1e.png",
     "index.html": "/resume/index.html",
-    "main.c81608df.css.map": "/resume/static/css/main.c81608df.css.map",
-    "main.866bda83.js.map": "/resume/static/js/main.866bda83.js.map"
+    "main.0fdebb2e.css.map": "/resume/static/css/main.0fdebb2e.css.map",
+    "main.1ba20366.js.map": "/resume/static/js/main.1ba20366.js.map"
   },
   "entrypoints": [
-    "static/css/main.c81608df.css",
-    "static/js/main.866bda83.js"
+    "static/css/main.0fdebb2e.css",
+    "static/js/main.1ba20366.js"
   ]
 }
